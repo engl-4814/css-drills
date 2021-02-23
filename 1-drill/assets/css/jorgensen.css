@@ -1,6 +1,14 @@
+header {
+    padding: 500px 300px;
+}
+
 body {
     color: #FF0000;
     background-color: #EEEEEE;
+}
+
+footer {
+    padding: 500px 300px;
 }
 
 h1 {
@@ -17,7 +25,15 @@ article {
     color:seagreen
 }
 
+img {
+    padding: 800px
+}
+
 .img-border {
-   padding: 50px 
+   border: 1px solid black 
+}
+
+a {
+    color: green
 }
 
