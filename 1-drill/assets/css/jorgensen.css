@@ -1,3 +1,6 @@
+* {
+    color: #FF0000
+}
 body {
     color: #FF0000;
     background-color: #EEEEEE;
@@ -7,5 +10,17 @@ h1 {
     color: #0000ff;
     background-color: #FF0000;
     font-size: 2em;
+}
+
+article {
+    max-width: 500px;
+    margin: auto auto;
+}
+.story {
+    color:seagreen
+}
+
+.img-border {
+   padding: 50px 
 }
 
