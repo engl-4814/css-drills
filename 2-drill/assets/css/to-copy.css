@@ -74,7 +74,7 @@
   general sibling of the img element.
   HINT: Look up the 'universal' selector.
   */
-img ~ * {
+{
   /* 
     - What elements are impacted
       by this selection?
