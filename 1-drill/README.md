@@ -1,8 +1,10 @@
 # CSS Selection & Box Model Practice
 
-1. Copy the `lindgren.html` file. Make sure it is within the root of this `1-drill` folder.
-2. Rename it with your last name.
-3. Follow the prompts within the `style.css` document.
-4. Be sure to practice selecting one element, adding a ruleset, and then testing it in your browser **before moving onto the next prompt**.
+**IMPORTANT** For this particular assignment, please do not push your code until just before class. That way, everyone has an opportunity to complete the assignment on their own.
 
-Complete this drill before our next class.
+1. Copy the `lindgren.html` file. Make sure it is within the root of this `1-drill` folder.
+2. Rename this ccopied `.html` file with your last name.
+3. Copy the `style.css` file in the `assets/css` folder. Make sure this copy is within the `assets/css` folder.
+4. Rename this copied `.css` file with your last name.
+5. Follow the prompts within the `.css` document to complete the assignment.
+6. Be sure to practice selecting one element, adding a ruleset, and then testing it in your browser **before moving onto the next prompt**.
