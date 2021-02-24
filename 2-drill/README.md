@@ -1,6 +1,6 @@
 # CSS Selection & Box Model Practice
 
-**IMPORTANT** For this particular assignment, please do not push your code until just before class. That way, everyone has an opportunity to complete the assignment on their own.
+**IMPORTANT** For this particular assignment, please do not push your code iteratively as usual. Please wait until just before class. That way, everyone has an opportunity to complete the assignment on their own.
 
 1. Copy the `lindgren.html` file. Make sure it is within the root of this `2-drill` folder.
 2. Rename this ccopied `.html` file with your last name.
