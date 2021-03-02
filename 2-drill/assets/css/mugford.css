@@ -35,10 +35,12 @@ ul
       configure the card box
       styles.
       */
-    background-color: pink;
-    border-radius: 20px;
-    padding-bottom: 5px;
-    max-width: 100px ;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    max-width: 250px ;
+    float: left;
+    margin-right: 20px;
   }
   
   /* 
@@ -47,14 +49,17 @@ ul
     descendant of the 'card' class
     */
 
-.card  h3 
+.card h3 
   {
     /*
       Lookup each rule and 
       configure the card's
       h3 styles.
       */
-    margin-top: 20px;
+
+    border-radius: 10px;
+    color: grey;
+    margin-top: auto;
     font-size: 20px;
   }
   
@@ -64,15 +69,16 @@ ul
     direct child of the 'card' class
     */
 
-img .card 
+.card img
   {
     /*
       Lookup each rule and 
       configure the card's
       img styles.
       */
-    border-radius:0px ;
-    width:100% ; /*Try using 100% as a value*/
+    border-radius:100px ;
+    width:100% ;
+   /*Try using 100% as a value*/
   }
   
   /* 
@@ -81,6 +87,8 @@ img .card
     general sibling of the img element.
     HINT: Look up the 'universal' selector.
     */
+
+ul#img>li
   {
     /* 
       - What elements are impacted
@@ -88,8 +96,8 @@ img .card
       - How could you provide uniform
         spacing on each side of these
         elements? */
-    margin-left: ;
-    margin-right: ;
+    margin-left: 100 px;
+    margin-right: 100 px;
   }
   
   /* 
@@ -102,3 +110,6 @@ img .card
     Maybe add some margins to incorporate
     some lovely whitespace for our cards.
    */
+
+   .card
+   {float left: ;}
