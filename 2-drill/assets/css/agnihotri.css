@@ -1,0 +1,26 @@
+.card-wrapper {
+  list-style-type: none;
+}
+.card{
+  background-color: lemonchiffon;
+  border-radius: 50px;
+  padding-bottom: 5%;
+  max-width: 50%;
+}
+.card h3 {
+margin-top:10% ;
+font-size: 20px;
+text-align: center;
+}
+.card>img{
+  border-radius: 150px;
+  width:50%;
+}
+img~p {
+  margin-left: 50px;
+  margin-right:50px;
+}
+.card{
+  float:left;
+  margin-left: 30px;
+}
