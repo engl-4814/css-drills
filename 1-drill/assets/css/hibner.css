@@ -1,0 +1,24 @@
+h1{
+    font-size: 22px;
+}
+h2{
+    font-size: 18px;
+    color: #341122;
+}
+article{
+    max-width: 500px;
+    margin: auto auto;
+}
+img{
+    padding: 50px 100px;
+    border: 10px solid #341122;
+}
+.img-border{
+    border: 2px dotted #58967e;
+    float: left;
+    padding-right: 20px;
+}
+header,footer{
+    padding: 15px 30px;
+    border: 1px solid #0b914d; 
+}
