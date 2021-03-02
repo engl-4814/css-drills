@@ -18,7 +18,7 @@ text-align: center;
 }
 img~p {
   margin-left: 50px;
-  margin-right:50px;
+  margin-right:100px;
 }
 .card{
   float:left;
