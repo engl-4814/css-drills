@@ -16,10 +16,10 @@ h1 {
   Apply a max-width of 500px.
   Center it with the box model's margin as follows: margin: auto auto; */
 
-  article {
-    max-width: 500px;
-    margin: auto auto;
-  }
+article {
+  max-width: 500px;
+   margin: auto auto;
+}
 
 /* General Ruleset: 
   Use the box model to style the images and the links */
