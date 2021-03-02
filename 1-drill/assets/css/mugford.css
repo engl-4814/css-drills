@@ -7,7 +7,7 @@
   Practice making a heading font scheme with font-size */
 
   header
-  {font-size: small;}
+  {font-family: Arial, Helvetica, sans-serif;}
 
 /* General Ruleset: 
   Target the article element.
