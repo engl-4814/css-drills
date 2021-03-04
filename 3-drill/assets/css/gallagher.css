@@ -1,0 +1,39 @@
+/* stylesheet for gallagher.html */
+
+header {
+    padding: 12px;
+    background-color: lightsteelblue;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightsteelblue;
+    color: darkslateblue;
+}
+
+.box {
+  border: 5px solid darkslateblue;
+}
+
+/*
+2. Practice sizing elements. Be sure that at
+  least one of the sections sizes an image to fit
+  within a parent container that is smaller than the
+  image. Be sure to create sections that practice 
+  the following different values:
+  - One section of HTML sized with fixed values
+  - One section of HTML sized with percentages
+  - One section of HTML sized with min- & max-
+  - One section of HTML sized with viewport units
+  */
+  p {
+    border: 5px solid darkslateblue
+  }
+
+  img {
+    border: 5px solid linen;
+    max-width: 600px;
+    max-height: 315px;
+    padding: 10px;
+}
