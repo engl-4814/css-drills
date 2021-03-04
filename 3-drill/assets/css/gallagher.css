@@ -1,17 +1,20 @@
 /* stylesheet for gallagher.html */
 
+/* adding effect to the header of the page*/
 header {
     padding: 12px;
     background-color: lightsteelblue;
 }
 
+/* changing style of the first header */
 h1 {
-    font-size: 30px;
+    font-size: 30vh;
     font-family: 'Times New Roman', Times, serif;
     background-color: lightsteelblue;
     color: darkslateblue;
 }
 
+/* adding a simple box with no filler under the first header */
 .box {
   border: 5px solid darkslateblue;
 }
@@ -27,13 +30,21 @@ h1 {
   - One section of HTML sized with min- & max-
   - One section of HTML sized with viewport units
   */
+
+  /* adding a border to every paragraoh */
   p {
     border: 5px solid darkslateblue
   }
 
+  /* styling and sizing the images */
   img {
     border: 5px solid linen;
     max-width: 600px;
     max-height: 315px;
     padding: 10px;
+}
+
+/* Making the links in the list italic */
+li {
+  font: italic;
 }
