@@ -1,0 +1,47 @@
+html {
+    font-size: 16px; /* Default size*/    
+}
+body {
+    background: rgb(247, 243, 197);
+    font-size: 1.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin:auto auto;
+}
+.block {
+    background: wheat;
+    color: grey;
+    padding: 1.5rem;
+}
+#data {
+    margin: 10% 20% 10% 20%;
+}
+#data-analysis {
+    border: 2px solid crimson;
+    min-width: 200px;
+    max-height: 300px;
+    text-shadow:  darkolivegreen 2px 2px 2px;
+}
+#data-visualization {
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+.wrapper {
+    padding: 70px;    
+}
+.box {
+    border: 5px solid black;
+    margin:2% 25% 2% 35%;
+    width: 250px;
+}
+img {
+    max-width: 100%;  
+}
+.slab {
+    background:linear-gradient(#3f87a6,#f69d3c);
+    font-size: 1.2rem;
+}
+.slab > li {
+    font-size: 1em;
+    font-style: italic;
+    font-family: serif;
+}
