@@ -6,47 +6,56 @@
 /* General Ruleset: 
   Practice making a heading font scheme with font-size */
 
-  header
-  {font-family: Arial, Helvetica, sans-serif;}
+  h1 {
+    font-size: 40px;
+  }
 
 /* General Ruleset: 
   Target the article element.
   Apply a max-width of 500px.
   Center it with the box model's margin as follows: margin: auto auto; */
 
-  article
-  {max-width: 500px; margin: auto auto;}
+  article {
+    max-width: 500px;
+    margin: auto auto;
+  }
 
 /* General Ruleset: 
   Use the box model to style the images and the links */
 
-  img
-  {width: 300px;
-  border:  15px solid pink;
-  padding-right: 20px;
-  margin: 20px;
-  float:left;
-}
+  img {
+    padding: 0px;
+    margin: 50px;
+  }
+
+  a:link {
+    color: blue;
+  }
 
 /* General Ruleset: 
   Use the box model to style the header and footer? */
 
-  header
-  {width: 200px;
-border: 20px solid black;
-padding: 10px;
-margin: auto ;}
+  header {
+    padding: 10px;
+    margin: 2px;
+  }
 
-footer
-{width: 500px;
-border: 10px solid black;
-padding: 10px;
-margin: auto}
+  footer {
+    margin: 35px;
+  }
 
 /* More Specific Ruleset: 
   Select any img with the class img-border and add a border to it. */
 
+  .img-border {
+    border: 3px solid red;
+  }
 
 /* More Specific Ruleset: 
   Select any img within a div with the class float.
   Apply a float: left; rule and padding-right: 20px; rule to it. */
+
+  .float img {
+    float: left;
+    padding-right: 20px;
+  }
