@@ -9,7 +9,7 @@ body {
 p {
 	padding: 100%;
 	margin: 100%;
-	border: 5px solid black;
+	border: 2px solid black;
 }
 
 h1, h2, h3, h4, h5 {
@@ -77,4 +77,5 @@ footer {
 	font-family:'Times New Roman', Times, serif;
 	padding: 100%;
 	margin: 100%;
+	background-color: tan;
 }
