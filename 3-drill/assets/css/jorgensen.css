@@ -1,0 +1,81 @@
+/* ||GENERAL STYLES */
+
+body {
+	padding: 10px 210px;
+	margin: 30px 10px;
+	border: 2px solid black;
+}
+
+p {
+	padding: 100%;
+	margin: 100%;
+	border: 2px solid black;
+}
+
+h1, h2, h3, h4, h5 {
+	color: black;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ol {
+	list-style-type: disc;
+}
+
+blockquote {
+	padding: 100%;
+	margin: 100%;
+	border: none;
+	background-color: orange;
+	color: white;
+}
+
+img {
+	border: none;
+	min-height: 350px;
+	max-height: 400px;
+	width: 100px;
+}
+
+/* ||UTILITIES */
+
+.nobullets {
+	list-style: none;
+	margin: zero;
+	padding: zero;
+}
+
+/* ||SITE WIDE */
+
+#main-nav {
+	background-color: maroon;
+	color:white;
+	min-height: 50px;
+	max-height: 60px;
+}
+
+header {
+	background-color: maroon;
+	font-size: 5em;
+	color: orange;
+	padding: 50px 20px;
+	margin: 30px 10px;
+}
+
+footer {
+	background-color: maroon;
+	color: white;
+	font-size: 5em;
+	height: 50vh;
+	width: 20vw;
+}
+
+#content {
+	font-family:'Times New Roman', Times, serif;
+	padding: 100%;
+	margin: 100%;
+	background-color: tan;
+}
