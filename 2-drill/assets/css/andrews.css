@@ -17,30 +17,25 @@
 
 
 /* Select the ul with the class 'card-wrapper' */
-ul 
-{
+.card-wrapper{
     /* 
       Research this rule & what it can do.
       - Make it so there's no styling for the list items
       */
-    list-style-type: none ;
+    list-style-type:none ;
   }
   
   /* Select the 'card' class */
-  
-.card
-  {
+  .card{
     /*
       Lookup each rule and 
       configure the card box
       styles.
       */
-    background-color: aliceblue;
-    border-radius: 10px;
-    padding-bottom: 10px;
-    max-width: 250px ;
-    float: left;
-    margin-right: 20px;
+    background-color: aquamarine ;
+    border-radius: 20px;
+    padding-bottom: 300px;
+    max-width: 500px;
   }
   
   /* 
@@ -48,18 +43,13 @@ ul
     select any h3 element that is a
     descendant of the 'card' class
     */
-
-.card h3 
-  {
+  .card h3{
     /*
       Lookup each rule and 
       configure the card's
       h3 styles.
       */
-
-    border-radius: 10px;
-    color: grey;
-    margin-top: auto;
+    margin-top: 100px ;
     font-size: 20px;
   }
   
@@ -68,17 +58,14 @@ ul
     select any img element that is a
     direct child of the 'card' class
     */
-
-.card img
-  {
+  .card> img{
     /*
       Lookup each rule and 
       configure the card's
       img styles.
       */
-    border-radius:100px ;
-    width:100% ;
-   /*Try using 100% as a value*/
+    border-radius: 300px;
+    width: 100%; /*Try using 100% as a value*/
   }
   
   /* 
@@ -87,17 +74,15 @@ ul
     general sibling of the img element.
     HINT: Look up the 'universal' selector.
     */
-
-ul#img>li
-  {
+  .img + *{
     /* 
       - What elements are impacted
         by this selection?
       - How could you provide uniform
         spacing on each side of these
         elements? */
-    margin-left: 100 px;
-    margin-right: 100 px;
+    margin-left: 100px;
+    margin-right: 100px;
   }
   
   /* 
@@ -110,5 +95,4 @@ ul#img>li
     Maybe add some margins to incorporate
     some lovely whitespace for our cards.
    */
-
   
