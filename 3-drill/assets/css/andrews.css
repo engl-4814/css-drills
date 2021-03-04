@@ -25,30 +25,29 @@
   distinguish these sections and write more 
   meaningful and organized CSS selectors.
  */
-
- .card-wrapper {
-   margin-left: 100px;
- }
-
- #small {
-  width: 50vw;
-  height: 50vh;
- }
-
- #big {
-  background-color: aqua;
-  width: 70%;
-  height: 70%;
- }
-
- #pasta {
-  min-width: 50px;
-  max-width: 500px;
-  min-height: 50px;
-  max-height: 150px;
- }
-
- #bread {
-  width: 300px;
-  height: 30px;
- }
+ *{color: white; background-color: black;}
+ header{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 1in;
+background-color: black;
+text-align:center;
+color:red;}
+h1.header1{text-align: center; font-family:Georgia, 'Times New Roman', Times, serif;
+    border-style: ridge; border-color:violet;
+    border-width: 60%;}
+h1.header2{text-align:center; font-family:fantasy; font-style:oblique; 
+            border-style: double; border-color:violet;
+            border-width:75%;}
+h1.header1+p{color:chartreuse; 
+    background-color:red;
+    text-align: center;
+    max-width: 50%;
+    height:45%} 
+h1.header2+p{background-color: rgb(55, 0, 255);
+    color: rgb(255, 255, 0);
+    text-align:center;
+    width: vw;
+    max-height:vmax ;}
+h2 {text-align: center; font-style:unset; font-family:monospace;
+    border-style: dotted; border-top-color: orange; border-left-color: red;
+        border-right-color: yellow; border-bottom-color: green;}
+    

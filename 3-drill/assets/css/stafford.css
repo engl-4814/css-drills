@@ -26,29 +26,29 @@
   meaningful and organized CSS selectors.
  */
 
- .card-wrapper {
-   margin-left: 100px;
- }
+header {
+    font-weight: 700;
+}
 
- #small {
-  width: 50vw;
-  height: 50vh;
- }
+h1, h3 {
+    margin: auto;
+    max-width: 200px;
+    text-align: left;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
- #big {
-  background-color: aqua;
-  width: 70%;
-  height: 70%;
- }
+p {
+    overflow: scroll;
+    text-align: left;
+    font-weight:300;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
- #pasta {
-  min-width: 50px;
-  max-width: 500px;
-  min-height: 50px;
-  max-height: 150px;
- }
-
- #bread {
-  width: 300px;
-  height: 30px;
- }
+.image {
+    box-sizing: border-box;
+    max-width: 60%;
+    max-height: 60%;
+    min-width: 20%;
+    min-height: 20%;
+}
