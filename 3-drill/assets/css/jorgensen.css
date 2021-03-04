@@ -1,8 +1,8 @@
 /* ||GENERAL STYLES */
 
 body {
-	padding: 50px 200px;
-	margin: 30px 100px;
+	padding: 10px 210px;
+	margin: 30px 10px;
 	border: 2px solid black;
 }
 
@@ -53,16 +53,16 @@ img {
 #main-nav {
 	background-color: maroon;
 	color:white;
-	min-height: 500px;
-	max-height: 1000px;
+	min-height: 50px;
+	max-height: 60px;
 }
 
 header {
 	background-color: maroon;
 	font-size: 5em;
 	color: orange;
-	padding: 50px 200px;
-	margin: 30px 100px;
+	padding: 50px 20px;
+	margin: 30px 10px;
 }
 
 footer {
@@ -70,7 +70,7 @@ footer {
 	color: white;
 	font-size: 5em;
 	height: 50vh;
-	width: 200vw;
+	width: 20vw;
 }
 
 #content {
