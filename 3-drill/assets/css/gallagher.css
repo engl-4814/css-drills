@@ -43,3 +43,8 @@ h1 {
     max-height: 315px;
     padding: 10px;
 }
+
+/* Making the links in the list italic */
+li {
+  font: italic;
+}
