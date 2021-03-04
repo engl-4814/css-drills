@@ -31,13 +31,14 @@
  }
 
  #small {
-  width: 20vw;
-  height: 20vh;
+  width: 50vw;
+  height: 50vh;
  }
 
  #big {
-  width: 120%;
-  height: 120%;
+  background-color: aqua;
+  width: 70%;
+  height: 70%;
  }
 
  #pasta {
