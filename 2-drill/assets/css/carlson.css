@@ -20,7 +20,7 @@
       - Make it so there's no styling for the list items
       */
     list-style-type: none;
-  }
+}
   
   /* Select the 'card' class */
 .card {
@@ -29,18 +29,19 @@
       configure the card box
       styles.
       */
-    background-color: #fff;
+    background-color: rgb(148, 158, 219);
     border-radius: 30px;
     padding-bottom: 20px;
     max-width: 500px;
-  }
+    float: left;
+}
   
   /* 
     Using a descendant combinator,
     select any h3 element that is a
     descendant of the 'card' class
     */
-h3 .card {
+.card h3 {
     /*
       Lookup each rule and 
       configure the card's
@@ -48,16 +49,14 @@ h3 .card {
       */
     margin-top: 20px;
     font-size: 2em;
-  }
+}
   
   /* 
     Using a child combinator,
     select any img element that is a
     direct child of the 'card' class
     */
-img .card,
-img >
-{
+.card > img {
     /*
       Lookup each rule and 
       configure the card's
@@ -65,7 +64,7 @@ img >
       */
     border-radius: 20px;
     width: 100%; /*Try using 100% as a value*/
-  }
+}
   
   /* 
     Using a general sibling combinator,
@@ -73,15 +72,15 @@ img >
     general sibling of the img element.
     HINT: Look up the 'universal' selector.
     */
-  {
+.img ~ h3 {
     /* 
       - What elements are impacted
         by this selection?
       - How could you provide uniform
         spacing on each side of these
         elements? */
-    margin-left: ;
-    margin-right: ;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   
   /* 
