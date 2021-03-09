@@ -11,12 +11,35 @@ body {
     line-height: 1.2;
 }
 h1,h2,h3 {
-    font-family: Cabin;
+    font-family:'Cabin',sans-serif;
+    color:rgb(255, 153, 0);    
+}
+header {
+    text-align: center;
 }
 p {
-    font-family: 'Helvetica';
+    font-family: 'Helvetica',cursive;
 }
 #intro {
     margin: auto;
     max-width:100%;
+}
+#current-research {
+    padding:10px 2px 20px 2px;
+}
+#current-research p:first-of-type:first-letter {
+float: left;
+margin: -10px -2px 0px -2px;
+font-family: 'Cabin',sans-serif;
+font-weight: 500;
+font-size: 2rem;
+color: red;
+}
+footer {
+    background:linear-gradient(#101111,#4bb0df);
+    font-size: 1.2rem;
+}
+footer a{
+    font-family: 'Merriweather';
+    color :#03121b;
 }
