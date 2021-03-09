@@ -1,15 +1,15 @@
 /* ||GENERAL STYLES */
 
 body {
-	padding: 200px;
-	margin: 200px;
-	border: 5px solid black;
+	padding: 5px 15px;
+	margin: 10px 30px;
+	border: 2px solid black;
 }
 
 p {
-	padding: 200px;
-	margin: 200px;
-	border: 5px solid black;
+	padding: 20px;
+	margin: auto;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -26,8 +26,12 @@ ol {
 }
 
 blockquote {
-	padding: 100%;
-	margin: 100%;
+	padding: 2%;
+	margin: 2%;
+	min-height: 40px;
+	max-height: 100px;
+	min-width: 2px;
+	max-width: 200px;
 	border: none;
 	background-color: orange;
 	color: white;
@@ -35,8 +39,8 @@ blockquote {
 
 img {
 	border: none;
-	height: 350px;
-	width: 100px;
+	height: 240px;
+	width: 240px;
 }
 
 /* ||UTILITIES */
@@ -52,25 +56,29 @@ img {
 #main-nav {
 	background-color: maroon;
 	color:white;
-	min-height: 500px;
-	max-height: 1000px;
+	min-height: ;
+	max-height: ;
 }
 
 header {
 	background-color: maroon;
-	font-size: 5em;
+	font-size: 50px;
 	color: orange;
+	padding: 2%;
+	margin: 2%;
 }
 
 footer {
 	background-color: maroon;
 	color: white;
-	font-size: 1vh 1vw;
-	height: 50vh;
-	width: 50vw;
+	font-size: 5em;
+	height:20vh;
+	width: 90vw;
 }
 
 #content {
 	font-family:'Times New Roman', Times, serif;
-	padding: 75%;
+	padding: 5px;
+	margin: 10px;
+	background-color: tan;
 }
