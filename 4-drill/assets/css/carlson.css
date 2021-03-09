@@ -13,9 +13,7 @@
   in the url() method. What does each part 
   of the URL seem to declare after 'css?'?
 */
-/*@import url(https://fonts.googleapis.com/css?family=Merriweather:200,400,700|Open+Sans:400italic,700italic,400,700|Slabo+27px:400);*/
-/*@import url(https://fonts.googleapis.com/css2?family=Fascinate&display=swap);*/
-@import url(https://fonts.googleapis.com/css2?family=Fascinate&family=Shadows+Into+Light&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 /* 
   Change the default font size
@@ -32,8 +30,7 @@ html {
     See if you can find its declaration
     in your browser's inspection tool.
   */
-  font-size: 16px;
-  background-color: linen;
+  font-size: 18px;
 }
 
 /* 
@@ -47,10 +44,9 @@ html {
   an ensembled design written in one
   place in your code.
 */
-
 body {
-  /*background-color: #fff;*/
-  color: black;
+  background-color: rgb(201, 198, 198);
+  color: navy;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -71,22 +67,18 @@ body {
 */
 body { font-size: 20px; }
 h1 { font-size: 2.25rem; } 
-h2 { font-size: 1.5rem; } 
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.25rem; font-style: italic; }
+h2 { font-size: 1.5rem; font-style: italic;} 
 blockquote { font-size: 1.125rem; }
 
 /* MAIN FONT FAMILIES */
-p  { font-family: 'Shadows Into Light', cursive; }
-h1,h2,h3 { font-family: 'Shadows Into Light', cursive; }
-blockquote { font-family: 'Shadows Into Light', cursive; }
+p  { font-family: 'Source Code Pro', monospace;}
+h1,h2,h3 { font-family: Merriweather; }
+blockquote { font-family: Merriweather; }
 
 /* POST STYLES */
 .post {
   max-width: 1000px;
   margin: auto auto;
-  /*margin-left: 2rem;
-  margin-right: 2rem;*/
 }
 
 .post h1 {
@@ -115,14 +107,14 @@ blockquote { font-family: 'Shadows Into Light', cursive; }
 .post p:first-of-type:first-letter {
   float: left;
   margin: -40px 0px 0px -2px;
-  font-family: 'Shadows Into Light', cursive;;
+  font-family: Merriweather;
   font-size: 3.25rem;
   font-weight: bold;
 }
 .post p:first-of-type:first-line {
   margin-top: 20px;
   line-height: 2.5;
-  background: peachpuff;
+  background: rgb(147, 150, 153);
 }
 
 /* Style .post blockquotes */
@@ -146,11 +138,4 @@ blockquote { font-family: 'Shadows Into Light', cursive; }
   font-family: Merriweather;
   content: "\"";
   font-size: 2rem;
-}
-
-footer { 
-    font-family: 'Shadows Into Light', cursive; 
-    background-color: peachpuff;
-    margin: 4rem;
-    padding: 1rem;
 }
