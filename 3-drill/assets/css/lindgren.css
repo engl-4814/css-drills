@@ -1,27 +1,93 @@
+
 /* 
-  **DO NOT** push your code until class time.
-  
-  **DO NOT** simply copy-paste the code from the 
-  readings. Be sure to write your own HTML page, 
-  so you can practice these skills.
+  Changing the default font-size
+*/
+html {
+  font-size: 18px;
+}
 
-  1. Practice organizing and documenting your
-  CSS with comments.
-  - Logical sections that begin with common/
-    general elements to more specfic components
-  - Avoid overly specific selectors, if possible
+/* General Section Styles */
+section {
+  padding: 20px;
+}
+section:nth-child(odd) {
+  background: rgb(108, 97, 119);
+}
+section:nth-child(even) {
+  background: goldenrod;
+}
 
-  2. Practice sizing elements. Be sure that at
-  least one of the sections sizes an image to fit
-  within a parent container that is smaller than the
-  image. Be sure to create sections that practice 
-  the following different values:
-  - One section of HTML sized with fixed values
-  - One section of HTML sized with percentages
-  - One section of HTML sized with min- & max-
-  - One section of HTML sized with viewport units
-  
-  Use appropriate classes and IDs in your HTML to 
-  distinguish these sections and write more 
-  meaningful and organized CSS selectors.
+/* FIXED VALUES */
+#fixed-values {
+  width: 400px;
+  margin: auto auto;
+}
+#fixed-values .logo img {
+  width: 100px;
+}
+#fixed-values .content {
+  width: 100px;
+}
+
+/* PERCENTAGE VALUES */
+#percentage-values {
+  width: 50%;
+  margin: auto auto;
+}
+#percentage-values .logo img {
+  width: 25%;
+}
+#percentage-values .content {
+  width: 50%;
+}
+
+/* MIN/MAX VALUES */
+#min-max-values {
+  max-width: 400px;
+  margin: auto auto;
+}
+#min-max-values .logo img {
+  max-width: 25%;
+}
+#min-max-values .content {
+  min-width: 400px;
+}
+
+
+/* VIEWPORT VALUES */
+/* 
+  What's the difference b/t
+  viewport values and %?
+ */
+#viewport-values {
+  width: 70vw;
+  margin: auto auto;
+}
+#viewport-values .logo img {
+  width: 75vw;
+}
+#viewport-values .content {
+  width: 65vw;
+  font-size: 3vw;
+}
+
+/* 
+  What value do rem values
+  compute against?
+ */
+#rem-values {
+  width: 18rem;
+  margin: auto auto;
+}
+#rem-values .logo img {
+  width: 10rem;
+}
+#rem-values .content {
+  width: 10rem;
+}
+
+/*
+  How could I apply the repeating
+  margin declarations more
+  programmatically?
  */
