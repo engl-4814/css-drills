@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
 html {
     font-size: 18px;
 }
@@ -8,17 +9,31 @@ body {
     background-color:#111032;
     color: white;
     font-size: 1.25rem;
-    line-height: 1.2;
+    line-height: 1.2;   
+}
+@keyframes example {
+    0%   {background-color: rgb(226, 150, 64);}
+    25%  {background-color: rgb(48, 48, 8);}
+    50%  {background-color: rgb(34, 34, 122);}
+    100% {background-color: rgb(16, 161, 172);}
+}
+h1 {
+    font-size: 30px;
+    background: black;
+    padding:0.5rem; 
+    animation: example; 
+    animation-duration: 4s;
+    animation-iteration-count: 3;
 }
 h1,h2,h3 {
-    font-family:'Cabin',sans-serif;
+    font-family:'Cabin',cursive;
     color:rgb(255, 153, 0);    
 }
 header {
     text-align: center;
 }
 p {
-    font-family: 'Helvetica',cursive;
+    font-family: 'JetBrains Mono', monospace;
 }
 #intro {
     margin: auto;
@@ -36,10 +51,16 @@ font-size: 2rem;
 color: red;
 }
 footer {
-    background:linear-gradient(#101111,#4bb0df);
-    font-size: 1.2rem;
+ font-size: 1rem;
+ font-family: 'Oxygen',sans-serif;
+}
+footer ul {
+    list-style: square;    
 }
 footer a{
     font-family: 'Merriweather';
-    color :#03121b;
+    color :#8aadc2;
+    margin:2rem;
+    padding:0.5rem;
+    border-radius:1px;
 }
