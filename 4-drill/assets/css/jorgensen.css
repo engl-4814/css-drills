@@ -15,8 +15,8 @@ body {
     font-size: 1rem;
     line-height: 1;
     font-weight: 400;
-    color: F8EDEB;
-    background-color: D8E2DC;
+    color: #F8EDEB;
+    background-color: #D8E2DC;
 }
 
 p {
@@ -28,31 +28,31 @@ p {
 h1 {
     font-size: 2.25rem;
     font-weight: 800;
-    color: FEC5BB;
+    color: #FEC5BB;
 }
 
 h2 {
     font-size: 2rem;
     font-weight: 700;
-    color: FCD5CE;
+    color: #FCD5CE;
 }
 
 h3 {
     font-size: 1.75rem;
     font-weight: 600;
-    color: FAE1DD
+    color: #FAE1DD;
 }
 
 h4 {
     font-size: 1.50rem;
     font-weight: 500;
-    color: F8EDEB;
+    color: #F8EDEB;
 }
 
 h5 {
     font-size: 1.25rem;
     font-weight: 400;
-    color: F8EDEB;
+    color: #F8EDEB;
 }
 
 ul {
@@ -79,11 +79,11 @@ img {
 /*||SITE WIDE*/
 
 header {
-	background-color: FEC89A;
+	background-color: #FEC89A;
 }
 
 footer {
-    background-color: FEC89A;
-    color: FFE5D9;
+    background-color: #FEC89A;
+    color: #FFE5D9;
 	font-size: 0.75rem;
 }
