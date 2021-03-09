@@ -70,7 +70,11 @@ body {
     ...
 */
 body { font-size: 20px; }
-h1 { font-size: 2.25rem; } 
+h1 { font-size: 2.25rem; 
+    background-color: white;
+    padding: 1rem;
+    border: medium solid peachpuff;
+} 
 h2 { font-size: 1.5rem; } 
 h3 { font-size: 1.25rem; }
 h4 { font-size: 1.25rem; font-style: italic; }
@@ -78,7 +82,7 @@ blockquote { font-size: 1.125rem; }
 
 /* MAIN FONT FAMILIES */
 p  { font-family: 'Shadows Into Light', cursive; }
-h1,h2,h3 { font-family: 'Shadows Into Light', cursive; }
+h1,h2,h3,h4 { font-family: 'Shadows Into Light', cursive; }
 blockquote { font-family: 'Shadows Into Light', cursive; }
 
 /* POST STYLES */
@@ -116,7 +120,7 @@ blockquote { font-family: 'Shadows Into Light', cursive; }
   float: left;
   margin: -40px 0px 0px -2px;
   font-family: 'Shadows Into Light', cursive;;
-  font-size: 3.25rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 .post p:first-of-type:first-line {
@@ -153,4 +157,5 @@ footer {
     background-color: peachpuff;
     margin: 4rem;
     padding: 1rem;
+    border: medium solid white;
 }
