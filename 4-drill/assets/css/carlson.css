@@ -13,7 +13,7 @@
   in the url() method. What does each part 
   of the URL seem to declare after 'css?'?
 */
-@import url(https://fonts.googleapis.com/css?family=Merriweather:200,400,700|Open+Sans:400italic,700italic,400,700|Slabo+27px:400);
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 /* 
   Change the default font size
@@ -67,13 +67,11 @@ body {
 */
 body { font-size: 20px; }
 h1 { font-size: 2.25rem; } 
-h2 { font-size: 1.5rem; } 
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.25rem; font-style: italic; }
+h2 { font-size: 1.5rem; font-style: italic;} 
 blockquote { font-size: 1.125rem; }
 
 /* MAIN FONT FAMILIES */
-p  { font-family: Open Sans; }
+p  { font-family: 'Source Code Pro', monospace;}
 h1,h2,h3 { font-family: Merriweather; }
 blockquote { font-family: Merriweather; }
 
