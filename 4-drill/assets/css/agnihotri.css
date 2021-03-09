@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&display=swap');
+
+html {
+    font-size: 18px;
+}
+
+body {
+    background-color:#111032;
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+h1,h2,h3 {
+    font-family: Cabin;
+}
+p {
+    font-family: 'Helvetica';
+}
+#intro {
+    margin: auto;
+    max-width:100%;
+}
