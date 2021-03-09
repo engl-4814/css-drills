@@ -13,7 +13,9 @@
   in the url() method. What does each part 
   of the URL seem to declare after 'css?'?
 */
-@import url(https://fonts.googleapis.com/css?family=Merriweather:200,400,700|Open+Sans:400italic,700italic,400,700|Slabo+27px:400);
+/*@import url(https://fonts.googleapis.com/css?family=Merriweather:200,400,700|Open+Sans:400italic,700italic,400,700|Slabo+27px:400);*/
+/*@import url(https://fonts.googleapis.com/css2?family=Fascinate&display=swap);*/
+@import url(https://fonts.googleapis.com/css2?family=Fascinate&family=Shadows+Into+Light&display=swap);
 
 /* 
   Change the default font size
@@ -30,7 +32,8 @@ html {
     See if you can find its declaration
     in your browser's inspection tool.
   */
-  font-size: 18px;
+  font-size: 16px;
+  background-color: linen;
 }
 
 /* 
@@ -44,8 +47,9 @@ html {
   an ensembled design written in one
   place in your code.
 */
+
 body {
-  background-color: #fff;
+  /*background-color: #fff;*/
   color: black;
   font-size: 1rem;
   line-height: 1.5;
@@ -73,14 +77,16 @@ h4 { font-size: 1.25rem; font-style: italic; }
 blockquote { font-size: 1.125rem; }
 
 /* MAIN FONT FAMILIES */
-p  { font-family: Open Sans; }
-h1,h2,h3 { font-family: Merriweather; }
-blockquote { font-family: Merriweather; }
+p  { font-family: 'Shadows Into Light', cursive; }
+h1,h2,h3 { font-family: 'Shadows Into Light', cursive; }
+blockquote { font-family: 'Shadows Into Light', cursive; }
 
 /* POST STYLES */
 .post {
   max-width: 1000px;
   margin: auto auto;
+  /*margin-left: 2rem;
+  margin-right: 2rem;*/
 }
 
 .post h1 {
@@ -109,14 +115,14 @@ blockquote { font-family: Merriweather; }
 .post p:first-of-type:first-letter {
   float: left;
   margin: -40px 0px 0px -2px;
-  font-family: Merriweather;
+  font-family: 'Shadows Into Light', cursive;;
   font-size: 3.25rem;
   font-weight: bold;
 }
 .post p:first-of-type:first-line {
   margin-top: 20px;
   line-height: 2.5;
-  background: aliceblue;
+  background: peachpuff;
 }
 
 /* Style .post blockquotes */
@@ -140,4 +146,11 @@ blockquote { font-family: Merriweather; }
   font-family: Merriweather;
   content: "\"";
   font-size: 2rem;
+}
+
+footer { 
+    font-family: 'Shadows Into Light', cursive; 
+    background-color: peachpuff;
+    margin: 4rem;
+    padding: 1rem;
 }
