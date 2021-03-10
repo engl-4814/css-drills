@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=Akaya+Telivigala:200,400,700|Open+Sans:400italic,700italic,400,700|Slabo+27px:400);
+html {
+  font-size: 18px;
+}
+body {
+  background-color: rgb(247, 246, 245);
+  color: rgb(226, 101, 43);
+  font-size: 1.25rem;
+  line-height: 2;
+}
+h1 { font-size: 3rem; font-style: initial} 
+h2 { font-size: 2rem; font-style: inherit;} 
+h3 { font-size: 1.5rem;font-style: oblique }
+h4 { font-size: 1.5rem; font-style: italic; }
+blockquote { font-size: 2.5rem; }
+
+p  { font-family: Open Sans ; }
+h1,h2,h3,h4 { font-family: 'Akaya Telivigala', cursive; }
+blockquote { font-family: 'Akaya Telivigala', cursive; }
+
+.drill4 {
+  max-width: 500px;
+  margin: auto auto;
+}
+
+.drill4 h1 {
+  margin-bottom: 25px;
+}
+
+.drill4 ul {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 1rem;
+}
+
+.drill4 p {
+  padding: 30px 10px 30px 50px;
+}
+
+.drill4 blockquote {
+ 
+  margin: 0em 4rem;
+  padding: 1rem;
+  font-family: Slabo 30px;
+}
+
+.drill4 blockquote::before {
+  font-family: 'Akaya Telivigala', cursive;
+  content: "\""; 
+  font-size: 1.25rem;
+}
+.drill4 blockquote::after {
+  font-family: 'Akaya Telivigala', cursive;
+  content: "\"";
+  font-size: 1.25rem;
+}
