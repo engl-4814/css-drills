@@ -1,0 +1,37 @@
+html
+{font-size: 20px;}
+
+body
+{background-color: lightseagreen;
+color: white;
+font-size: 1rem;
+line-height: 1.5;
+margin: 100px }
+
+.post {
+    max-width: 1000px;
+    margin: auto auto;
+  }
+
+  header
+{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+h2, h3
+{font-family: cursive;}
+
+blockquote
+{font-family: monospace;
+content: "/";
+font-size: 2rem;}
+
+p
+{margin-bottom: 35px;
+padding: 40px}
+
+.post p:first-of-type::first-letter
+{float: left;
+margin: -40px 0px 0px -2px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 3.25rem;
+font-weight: bold;}
+
