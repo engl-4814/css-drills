@@ -19,7 +19,34 @@ p {
 h1, h2, h3, h4, h5 {
 	color: #cff7b6;
 	font-weight: 700;
+	text-align: center;
 }
+
+h1 {
+	font-size: 5em;
+}
+
+h2 {
+	font-size: 4em;
+}
+
+h3 {
+	font-size: 3em;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 2em;
+	font-weight: 500;
+	color: grey;
+}
+
+h5 {
+	font-size: 1em;
+	font-weight: 400;
+	color: grey;
+}
+
 
 ul {
 	list-style-type: disc;
@@ -39,6 +66,8 @@ blockquote {
 	border: none;
 	background-color: #98bf63;
 	color: white;
+	font-style: italic;
+	font-size: 3em;
 }
 
 img {
@@ -59,13 +88,12 @@ img {
 /* ||SITE WIDE */
 
 #main-nav {
-	background-color: maroon;
+	background-color: tan;
 	color:white;
 }
 
 header {
 	background-color: #fdbe39;
-	font-size: 50px;
 	color: white;
 	padding: 2%;
 	margin: 2%;
@@ -74,7 +102,7 @@ header {
 footer {
 	background-color: #fdbe39;
 	color: white;
-	font-size: 5em;
+	font-size: 1em;
 	height:20vh;
 	width: 90vw;
 }
