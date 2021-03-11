@@ -1,0 +1,46 @@
+/*||GENERAL ELEMENTS*/
+
+html{
+    font-size: 13;
+}
+
+body {
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2{
+ font-size: 1.5em;
+}
+
+img {
+    height: 240;
+    width: 240;
+}
+
+/*||SITE WIDE*/
+
+header {
+    align-self: flex-start;
+}
+
+#image_1 {
+    align-self: flex-start;
+}
+
+#content {
+    align-self: center;
+    height: 240;
+    width: 240;
+}
+
+#image_2 {
+    align-self: flex-end;
+    height: 240;
+    width: 240;
+}
+
+
