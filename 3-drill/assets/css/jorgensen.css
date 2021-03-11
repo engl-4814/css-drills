@@ -1,9 +1,13 @@
 /* ||GENERAL STYLES */
 
+html {
+	background-color: white;
+}
 body {
 	padding: 5px 15px;
 	margin: 10px 30px;
-	border: 2px solid black;
+	background-color: #fff75e;
+	border: 1px solid #7fa564;
 }
 
 p {
@@ -13,8 +17,8 @@ p {
 }
 
 h1, h2, h3, h4, h5 {
-	color: black;
-	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+	color: #cff7b6;
+	font-weight: 700;
 }
 
 ul {
@@ -33,14 +37,15 @@ blockquote {
 	min-width: 2px;
 	max-width: 200px;
 	border: none;
-	background-color: orange;
+	background-color: #98bf63;
 	color: white;
 }
 
 img {
 	border: none;
-	height: 240px;
-	width: 240px;
+	height: 627px;
+	width: 1200px;
+	text-align: center;
 }
 
 /* ||UTILITIES */
@@ -59,15 +64,15 @@ img {
 }
 
 header {
-	background-color: maroon;
+	background-color: #fdbe39;
 	font-size: 50px;
-	color: orange;
+	color: white;
 	padding: 2%;
 	margin: 2%;
 }
 
 footer {
-	background-color: maroon;
+	background-color: #fdbe39;
 	color: white;
 	font-size: 5em;
 	height:20vh;
@@ -75,8 +80,29 @@ footer {
 }
 
 #content {
-	font-family:'Times New Roman', Times, serif;
 	padding: 5px;
 	margin: 10px;
-	background-color: tan;
 }
+
+/*||FONT FACES*/
+@font-face {
+	font-family: 'merriweather';
+	src: url('../../../4-drill/assets/fonts/Merriweather-black.tff') format('tff');
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'merriweather';
+	src: url('../../../4-drill/assets/fonts/Merriweather-bold.tff') format('tff');
+	font-style: bold;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'merriweather';
+	src: url('../../../4-drill/assets/fonts/Merriweather-italic.tff') format('tff');
+	font-style: italic;
+	font-weight: 200;
+}
+
