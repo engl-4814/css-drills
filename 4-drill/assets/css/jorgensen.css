@@ -7,9 +7,8 @@
 /*||GENERAL STYLES*/
 
 html {
-    font-family: 'Eb Garamond', serif;
     font-size: 13px;
-    background-color: #F8EDEB;
+    background-color: #ffffff;
 }
 
 body {
@@ -18,8 +17,8 @@ body {
     font-size: 1rem;
     line-height: 1;
     font-weight: 400;
-    color: #F8EDEB;
-    background-color: #D8E2DC;
+    color: black;
+    background-color: #f3faf6;
 }
 
 p {
@@ -32,7 +31,7 @@ h1 {
     text-align: center;
     font-size: 4.5rem;
     font-weight: 800;
-    color: #FEC89A;
+    color: #ee8727;
 }
 
 h2 {
@@ -46,21 +45,21 @@ h3 {
     text-align: center;
     font-size: 1.75rem;
     font-weight: 600;
-    color: #FAE1DD;
+    color: #f5e8dc;
 }
 
 h4 {
     text-align: center;
     font-size: 1.50rem;
     font-weight: 500;
-    color: #F8EDEB;
+    color: #f5e8dc;
 }
 
 h5 {
     text-align: center;
     font-size: 1.25rem;
     font-weight: 400;
-    color: #F8EDEB;
+    color: f5e8dc;
 }
 
 ul {
@@ -80,8 +79,8 @@ blockquote {
 }
 
 img {
-	height: 350px;
-	width: 350px;
+	height: 627px;
+	width: 1200px;
 }
 
 /*||SITE WIDE*/
@@ -89,13 +88,13 @@ img {
 header {
     padding: 10px 20px;
     margin: 5px 10px;
-	background-color: #FFE5D9;
+	background-color: #fdf1ec;
 }
 
 footer {
     padding: 10px 20px;
     margin: 5px 10px;
-    background-color: #FFE5D9;
-    color: #FEC89A;
+    background-color: #fdf1ec;
+    color: #ee8727;
 	font-size: 0.75rem;
 }
