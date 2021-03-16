@@ -1,7 +1,7 @@
 section {
   display: flex;
   justify-content: space-around;
-  flex-direction: column-reverse;
+  flex-direction: column;
 }
 
 .first {
@@ -13,7 +13,7 @@ section {
 .second {
   display: flex;
   justify-content: center;
-  align-items: normal;
+  align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
 }
