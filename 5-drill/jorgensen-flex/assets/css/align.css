@@ -2,6 +2,8 @@
 
 html{
     font-size: 13;
+    display: flex;
+    color:red;
 }
 
 body {
