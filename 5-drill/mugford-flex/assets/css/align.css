@@ -9,8 +9,6 @@
       font-family: Arial, Helvetica, sans-serif;
   }
 
-
-
 .first {
     display: flex;
    justify-content: flex-start;
@@ -25,8 +23,6 @@ align-items: center;
   .third {
       display: flex;
       justify-content: flex-end;
-   
-
 }
 
 div
