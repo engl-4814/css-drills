@@ -1,0 +1,15 @@
+/* 
+## 2. Flexing Reusable Classes to Create a Design Scheme
+
+Spot the design pattern in the wireframe below, and recreate it with flexbox:
+
+<img style="width:80%"
+     src="../images/flex-2-row-scheme.png"
+     alt="Wireframe offered as an alignment design practice drill using flexbox." />
+
+Like drill #1, there are variations on this design scheme, but try to write your 
+HTML and CSS in a way that balances the amount of code necessary to write it, 
+as well as code that is **reusable as possible classes** to reuse across a larger site.
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Fascinate&family=Shadows+Into+Light&display=swap);
