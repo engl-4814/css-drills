@@ -1,0 +1,16 @@
+/* Alignment */
+
+.box {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.paragraph-one {
+  flex-wrap: wrap;
+  align-self: center;
+  flex: 2 1 auto;
+}
+
+.image-two {
+  align-self: right;
+}
