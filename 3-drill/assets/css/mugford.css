@@ -1,41 +1,44 @@
-body { background-color: aliceblue; }
-h3 
-{ background-color: grey; 
+body { background-color: skyblue; }
+h1
+{ font-family: cursive;
     color: white; 
-margin: 10px;}
+margin: auto}
 
 /*This is my first CSS comment.
 I am commentind that I made the whole background blue!
 I also made all my h3 headings white and grey*/
 
+p
+{font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+color:white}
+
+/*changed the paragraph formatting*/
+
 img
 {width: 300px;
-    border:  15px solid pink;
-    padding-right: 20px;
+    border:  100px solid grey;
+    padding: 0px;
     margin: 20px;
     float:left; }
 
 /*I made the image smaller with a pink border*/
 
-header
-{min-width: 100px;
-max-width: 10px;}
 
-/*I hadded a min and max to the header*/
 
 ul
 {list-style: none;
 background-color: pink;
-margin: 100px;}
+margin: 50px;
+font-family: cursive;
+font-size: x-large}
+
 
 /*I made the list have a pink backround*/
 
-p
-{font-family: Arial, Helvetica, sans-serif;
-font-size: 30px;}
 
-/*I added a font to the paragraph*/
 
-section #fixed-values
+article
 {width: 500 px;
-margin: auto ;}
+margin: auto ;
+color: white}
