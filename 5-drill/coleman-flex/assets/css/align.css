@@ -21,7 +21,7 @@ p {
     border-radius: 2%;
 }
 body div > * {
-    max-width: 300px;
+    max-width: 450px;
 }
 #paragraph {
     align-items: center;
@@ -38,4 +38,10 @@ body div > * {
 #Ronaldo {
     align-items: center;
     align-self:flex-end;
+}
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif, cursive;
+    color:#84A59D;
+    background-color: #ddbea9;
+    width: 300px;
 }
