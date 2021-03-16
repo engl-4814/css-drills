@@ -1,0 +1,63 @@
+/* 
+  **DO NOT** push your code until class time.
+  
+  **DO NOT** simply copy-paste the code from the 
+  readings. Be sure to write your own HTML page, 
+  so you can practice these skills.
+
+  1. Practice organizing and documenting your
+  CSS with comments.
+  - Logical sections that begin with common/
+    general elements to more specfic components
+  - Avoid overly specific selectors, if possible
+
+  2. Practice sizing elements. Be sure that at
+  least one of the sections sizes an image to fit
+  within a parent container that is smaller than the
+  image. Be sure to create sections that practice 
+  the following different values:
+  - One section of HTML sized with fixed values
+  - One section of HTML sized with percentages
+  - One section of HTML sized with min- & max-
+  - One section of HTML sized with viewport units
+  
+  Use appropriate classes and IDs in your HTML to 
+  distinguish these sections and write more 
+  meaningful and organized CSS selectors.
+ */
+
+
+ /* Change the color of the webpage to sea green */
+
+
+ header {
+    font-weight: 300;
+    color: palevioletred;
+  }
+
+ /* sized with FIXED VAL*/
+  .box {
+    border: 3px solid palevioletred;
+    height: 150px;
+    width: 200px;
+  }
+
+  /* sized with PERCENTAGES*/
+  .insta {
+    border: 3px solid palevioletred;
+    width: 50%;
+  }
+
+  /* sized with min & max*/
+  .twitter {
+    border: 3px solid palevioletred;
+    min-height: 100px;
+    width: 250px;
+  }
+
+  /* sized with viewpoints*/
+  .tiktok {
+    border: 3px solid palevioletred;
+    width: 40vw;
+    height: 40vh;
+  }

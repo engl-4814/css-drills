@@ -1,0 +1,21 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+section {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+#bg {
+  background-color: beige;
+}

@@ -1,0 +1,45 @@
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: cadetblue;
+}
+
+.main{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: mediumorchid;
+}
+
+.aside1{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: mediumpurple;
+}
+
+.aside2{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightblue;
+}
+
+@media all and (min-width: 600px) {
+    .aside {flex: 1 0 0;}
+}
+
+@media all and (min-width: 800px){
+    .main {flex: 3 0px }
+    .aside1 {order: 1; }
+    .main {order: 2; }
+    .aside2 {order: 3; }
+}
