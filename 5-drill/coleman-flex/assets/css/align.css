@@ -35,10 +35,12 @@ p {
 	align-items: center;
 	align-content: center;
     color:#84A59D;
+    margin: center;
 }
 h1 {
     display: flex;
     align-content: flex-start;
+    margin: left;
 
 }
 .img-border {
@@ -47,6 +49,7 @@ h1 {
     border:6px solid #DDBEA9;
     border-radius: 2%;
     align-content: flex-start;
+    margin: left;
 }
 .img {
     display: flex;
@@ -54,4 +57,5 @@ h1 {
     border:6px solid #DDBEA9;
     border-radius: 2%;
     align-items: flex-end;
+    margin: right;
 }
