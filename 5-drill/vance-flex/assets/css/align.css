@@ -1,16 +1,23 @@
 /* Alignment */
 
-.box {
+div {
+  display: block;
+}
+
+main div {
   display: flex;
-  flex-flow: column wrap;
+  padding: 25px
 }
 
-.paragraph-one {
-  flex-wrap: wrap;
-  align-self: center;
-  flex: 2 1 auto;
+main div img {
+  width: 100%
 }
 
-.image-two {
-  align-self: right;
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-align-right {
+  justify-content: flex-end;
 }
