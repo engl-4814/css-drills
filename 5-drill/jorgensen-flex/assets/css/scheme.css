@@ -1,12 +1,12 @@
 html{
     font-size: 13;
-    display: flex;
     color:red
 }
 
 body {
     flex-direction: column;
     flex-wrap: wrap;
+    display: flex;
 }
 
 h2{
@@ -35,26 +35,34 @@ footer {
     width: 240px;
 }
 
-#content_2 {
-    height: 240px;
-    width: 240px;
-}
-
 #image_2 {
     height: 240px;
     width: 240px;
+    align-self: center;
+}
+
+#content_2 {
+    height: 240px;
+    width: 240px;
+    align-self: center;
 }
 
 #content_3 {
     height: 240px;
     width: 240px;
+    align-self: flex-end;
 }
 
 #image_3 {
     height: 240px;
     width: 240px;
+    align-self: flex-end:
 }
 
 header {
     display: none
+}
+
+.flex-align-right {
+    justify-content: right;
 }
