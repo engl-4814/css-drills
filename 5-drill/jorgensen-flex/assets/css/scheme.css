@@ -1,5 +1,7 @@
 html{
     font-size: 13;
+    display: flex;
+    color:red
 }
 
 body {
@@ -51,4 +53,8 @@ footer {
 #image_3 {
     height: 240px;
     width: 240px;
+}
+
+header {
+    display: none
 }

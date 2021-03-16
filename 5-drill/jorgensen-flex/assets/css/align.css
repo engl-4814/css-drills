@@ -2,10 +2,12 @@
 
 html{
     font-size: 13;
+    color:red;
 }
 
 body {
     flex-direction: column;
+    display: flex;
 }
 
 h1 {
@@ -17,8 +19,8 @@ h2{
 }
 
 img {
-    height: 240;
-    width: 240;
+    height: 240px;
+    width: 240px;
 }
 
 /*||SITE WIDE*/
@@ -32,15 +34,23 @@ header {
 }
 
 #content {
-    align-self: center;
-    height: 240;
-    width: 240;
+    height: 240px;
+    width: 240px;
 }
 
 #image_2 {
-    align-self: flex-end;
-    height: 240;
-    width: 240;
+    height: 240px;
+    width: 240px;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-align-right {
+    justify-content: right;
+    align-items: flex-end;
 }
 
 
