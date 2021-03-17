@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+}
+
+.comic-frame {
+    border: 5px solid black;
+    width: 350px;
+    max-width: 100%;
+    min-height: 100%;
+  }
+ 
+#frame-1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#frame-2 {
+  display: flex;
+  justify-content: center;
+}
+
+#frame-3 {
+  display: flex;
+  justify-content: flex-end;
+}
