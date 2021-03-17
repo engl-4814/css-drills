@@ -1,0 +1,71 @@
+/*
+## 1. Align The Children with Reusable Classes
+
+Line some children items up as seen in the wireframe below:
+
+<img style="width:80%"
+     src="../images/flex-1-align.png"
+     alt="Wireframe offered as an alignment design practice drill using flexbox." />
+
+There are variations on this design scheme, but try to write your HTML and CSS
+in a way that balances the amount of code necessary to write it, as well as code 
+that is **reusable as possible classes** to reuse across a larger site.
+*/
+
+/* tools from frog game:
+justify-content --> which aligns items horizontally and accepts the following values:
+
+flex-start: Items align to the left side of the container.
+flex-end: Items align to the right side of the container.
+center: Items align at the center of the container.
+space-between: Items display with equal spacing between them.
+space-around: Items display with equal spacing around them.
+
+align-items --> This CSS property aligns items vertically and accepts the following values:
+
+flex-start: Items align to the top of the container.
+flex-end: Items align to the bottom of the container.
+center: Items align at the vertical center of the container.
+baseline: Items display at the baseline of the container.
+stretch: Items are stretched to fit the container.
+
+flex-direction --> This CSS property defines the direction items are placed in the container, and accepts the following values:
+
+row: Items are placed the same as the text direction.
+row-reverse: Items are placed opposite to the text direction.
+column: Items are placed top to bottom.
+column-reverse: Items are placed bottom to top.
+
+order & align-self
+
+flex-wrap --> property which accepts the following values:
+
+nowrap: Every item is fit to a single line.
+wrap: Items wrap around to additional lines.
+wrap-reverse: Items wrap around to additional lines in reverse.
+
+flex-flow: column/row/-reverse wrap (combo of flex-direction and flex-wrap)
+align-content
+*/
+
+h1 {
+    color: darkcyan;
+    background-size: 2rem;
+    background-color: lightcyan;
+    font-size: 2rem;
+}
+
+body div {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.img-grid {
+    border: medium darkcyan;
+    padding: 1rem;
+}
+
+/* WHY ARENT CERTAIN LINES LINKING?? */
