@@ -5,12 +5,11 @@ html{
 
 body {
     flex-direction: column;
-    flex-wrap: wrap;
     display: flex;
 }
 
 h2{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 500;
 }
 
@@ -26,38 +25,9 @@ footer {
     display: flex;
 }
 
-#content_1 {
+#content {
     height: 240px;
     width: 240px;
-}
-
-#image_1 {
-    height: 240px;
-    width: 240px;
-}
-
-#image_2 {
-    height: 240px;
-    width: 240px;
-    align-self: center;
-}
-
-#content_2 {
-    height: 240px;
-    width: 240px;
-    align-self: center;
-}
-
-#content_3 {
-    height: 240px;
-    width: 240px;
-    align-self: flex-end;
-}
-
-#image_3 {
-    height: 240px;
-    width: 240px;
-    align-self: flex-end;
 }
 
 header {
