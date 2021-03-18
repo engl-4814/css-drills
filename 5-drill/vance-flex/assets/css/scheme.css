@@ -1,0 +1,13 @@
+/* Scheme */
+
+.box {
+  display: flex;
+}
+
+.image-two {
+  flex-wrap: wrap;
+}
+
+.image-three {
+  flex-wrap: wrap;
+}
