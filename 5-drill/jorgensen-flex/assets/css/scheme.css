@@ -1,6 +1,6 @@
 html{
     font-size: 13;
-    color:red
+    color:blue;
 }
 
 body {
@@ -23,6 +23,7 @@ img {
 
 footer {
     flex-direction: row;
+    display: flex;
 }
 
 #content_1 {
@@ -56,7 +57,7 @@ footer {
 #image_3 {
     height: 240px;
     width: 240px;
-    align-self: flex-end:
+    align-self: flex-end;
 }
 
 header {
