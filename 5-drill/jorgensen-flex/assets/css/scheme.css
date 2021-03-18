@@ -22,12 +22,14 @@ img {
 
 footer {
     flex-direction: row;
+    justify-content: space-between;
     display: flex;
 }
 
 #content {
     height: 240px;
     width: 240px;
+    display: flex;
 }
 
 header {
@@ -36,4 +38,6 @@ header {
 
 .flex-align-right {
     justify-content: right;
+    align-items: flex-end;
+    display: flex;
 }
