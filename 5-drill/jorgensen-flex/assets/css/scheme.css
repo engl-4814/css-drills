@@ -5,7 +5,7 @@ html{
 
 body {
     justify-content: space-around;
-    flex-direction: column;
+    flex-flow: row wrap;
     display: flex;
 }
 
@@ -19,24 +19,24 @@ img {
     width: 240px;
 }
 
-p {
-    height: 240px;
-    width: 240px;
-}
-
 div {
     display: flex;
 }
 
 /*||SITE WIDE*/
 
+header {
+    display: none
+}
 footer {
+    justify-content: space-between;
     flex-direction: row;
     display: flex;
 }
 
-header {
-    display: none
+#content {
+    height: 240px;
+    width: 240px;
 }
 
 .flex-align-right {
