@@ -23,3 +23,7 @@ section {
   justify-content: flex-end;
   align-items: flex-end;
 }
+
+div {
+  width: 300px;
+}
