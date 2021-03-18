@@ -1,29 +1,17 @@
 section {
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-.first {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
 .second {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 
-.third {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+.second div {
+  width: 300px;
 }
 
-div {
-  width: 300px;
+.third {
+  justify-content: flex-end;
+  align-items: flex-end;
 }
