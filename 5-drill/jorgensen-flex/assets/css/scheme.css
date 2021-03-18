@@ -1,6 +1,6 @@
 html{
     font-size: 13;
-    color:blue;
+    color:green;
 }
 
 body {
@@ -16,6 +16,10 @@ h2{
 img {
     height: 240px;
     width: 240px;
+}
+
+div {
+    display: flex;
 }
 
 /*||SITE WIDE*/
@@ -37,7 +41,6 @@ header {
 }
 
 .flex-align-right {
-    justify-content: right;
-    align-items: flex-end;
+    justify-content:flex-end;
     display: flex;
 }
