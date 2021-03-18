@@ -2,12 +2,14 @@
 
 .box {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.image-two {
-  flex-wrap: wrap;
+.box > * {
+  width: 500px;
+  text-align: left;
 }
 
-.image-three {
-  flex-wrap: wrap;
-}
+
