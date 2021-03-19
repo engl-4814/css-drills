@@ -19,9 +19,9 @@ Practice different design and grid techniques from the readings / videos.
 1. Design a grid as a wireframe
 2. Code it using the following grid techniques:
    - `grid-template-columns` and `grid-template-rows` that use whatever mix of the following values for your grid: `fr`, `min-content`, `max-content`, and fixed values (`px`).
-3. Be sure to include your wireframe as a file in your assets folder.
+3. Be sure to practice using HTML5 elements, where you can and should do so.
+4. Be sure to include your wireframe as a file in your assets folder.
 
-Your HTML should
 
 ## Other Considerations
 
