@@ -1,0 +1,90 @@
+/* ## Goal
+
+Practice different design and grid techniques from the readings / videos.
+
+1. Design a grid as a wireframe
+2. Code it using the following grid techniques:
+   - `grid-template-columns` and `grid-template-rows` that use whatever mix of the following values for your grid: `fr`, `min-content`, `max-content`, and fixed values (`px`).
+3. Be sure to practice using HTML5 elements, where you can and should do so.
+4. Be sure to include your wireframe as a file in your assets folder. */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+h1 {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 2rem;
+    padding-bottom: 0.1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: darkslategray;
+    background-color: linen;
+}
+
+header > p {
+    display: flex;
+    justify-content: center;
+    
+    padding-top: 0.1rem;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Dancing Script', cursive;
+    color: darkslategray;
+    background-color: linen;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 80%;
+
+    box-sizing: border-box;
+}
+
+article {
+    border: 1px solid antiquewhite;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0.5rem antiquewhite;
+
+    display: flex;
+    flex-flow: column;  
+}
+  
+footer {
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: darkslategray;
+    background-color: linen;
+    padding-left: 2rem;
+    border-top: 2rem;
+}
+
+article > h2 {
+    margin: 1rem 1rem 0;
+    padding: 1rem;
+    color: darkslategray;
+    background-color: linen;
+    border: solid thick white;
+}
+
+article > button {
+    background-color: linen;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+article > button:hover {
+    background-color: linen;
+    opacity: 0.8;
+    font-size: 1.001rem;
+    margin-top: auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: darkslategray;
+}
