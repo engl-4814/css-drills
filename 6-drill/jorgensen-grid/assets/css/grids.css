@@ -17,8 +17,6 @@ p {
 }
 
 img {
-    display:flex;
-    flex-direction: row;
     height: 240px;
     width: 240px
 }
@@ -30,23 +28,26 @@ html {
 }
 
 header {
-
+    padding: 50px 40px;
 }
 
 body {
     font-size: 12px;
+    padding: 50px 40px;
 }
 
 footer {
     font-size: .75em;
+    padding: 50px 40px;
 }
 
 #content {
-
+    background-color: wheat;
 }
 
 #images {
-
+    display:flex;
+    flex-direction: row;
 }
 
 #grid {
