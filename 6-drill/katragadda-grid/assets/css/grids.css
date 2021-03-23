@@ -1,0 +1,46 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+header{
+    background:rgb(155, 156, 147);
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.border {
+    background-color: grey;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,200px);
+    grid-gap: 20px;
+}
+.grid-container >div{
+    background-color: white;
+
+}
+
+footer{
+    background: white;
+    color: rgb(108, 231, 25);
+    text-align: left;
+}
+
+#winner{
+    background-color:  rgb(108, 231, 25);
+    width: 10px;
+    height: 640px;
+    position: absolute;
+    margin-left: 240px;
+
+}
