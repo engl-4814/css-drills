@@ -1,0 +1,10 @@
+h1{display:flex; 
+    justify-content: flex-start;
+font-size:50px; color:aquamarine;}
+main .section1{display:flex; 
+    justify-content: flex-start;
+border: brown; border-radius: 30px;}
+main .section2{display:flex; 
+    justify-content:center;}
+main .section3{display:flex; 
+    justify-content:flex-end;}

@@ -1,16 +1,16 @@
 html{
-    font-size: 13;
-    color:red
+    font-size: 10;
+    color:pink;
 }
 
 body {
-    flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-flow: row wrap;
     display: flex;
 }
 
-h2{
-    font-size: 2em;
+h2 {
+    font-size: 1.5em;
     font-weight: 500;
 }
 
@@ -19,50 +19,27 @@ img {
     width: 240px;
 }
 
+div {
+    display: flex;
+}
+
 /*||SITE WIDE*/
-
-footer {
-    flex-direction: row;
-}
-
-#content_1 {
-    height: 240px;
-    width: 240px;
-}
-
-#image_1 {
-    height: 240px;
-    width: 240px;
-}
-
-#image_2 {
-    height: 240px;
-    width: 240px;
-    align-self: center;
-}
-
-#content_2 {
-    height: 240px;
-    width: 240px;
-    align-self: center;
-}
-
-#content_3 {
-    height: 240px;
-    width: 240px;
-    align-self: flex-end;
-}
-
-#image_3 {
-    height: 240px;
-    width: 240px;
-    align-self: flex-end:
-}
 
 header {
     display: none
 }
+footer {
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+#content {
+    height: 240px;
+    width: 240px;
+}
 
 .flex-align-right {
     justify-content: right;
+    display: flex;
 }

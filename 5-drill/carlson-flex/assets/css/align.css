@@ -1,25 +1,17 @@
 section {
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-.first {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
 .second {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   flex-direction: column;
 }
 
+.second div {
+  width: 300px;
+}
+
 .third {
-  display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
