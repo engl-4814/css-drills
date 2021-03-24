@@ -38,6 +38,8 @@
 }
 
 @media all and (min-width: 800px){
+    .main {flex: 3 0px }
     .aside1 {order: 1; }
-    .aside2 {order: 2; }
+    .main {order: 2; }
+    .aside2 {order: 3; }
 }
