@@ -1,0 +1,35 @@
+.p-1{
+  display: flex;
+  justify-content: flex-start;
+}
+.image-1{
+  display: flex;
+  justify-content: flex-end;
+}
+.image-2{
+  display: flex
+  justify-content: flex-start;
+}
+.p-2{
+  display: flex;
+  justify-content: flex-end;
+}
+.section1{
+  background-color: cornflowerblue;
+}
+.p-3{
+  display: flex;
+  justify-content: flex-start;
+}
+.image-3{
+  display: flex;
+  justify-content: flex-end;
+}
+.section-2{
+  background-color: cornflowerblue;
+}
+.centerone{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

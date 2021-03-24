@@ -1,0 +1,23 @@
+body {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.main-frame {
+  border: 5px solid red;
+  width: 500px;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.comic-frame {
+    border: 5px solid black;
+    width: 250px;
+    max-width: 100%;
+    min-height: 100%;
+}

@@ -1,0 +1,89 @@
+/* 
+  Practice aligning some children elements
+*/
+
+
+/* 
+  General Rules Up Top, Baby!
+*/
+:root {
+  --linen: linen;
+  --leather: rgb(196 178 164);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--linen);
+}
+
+/* 
+  Target next set of general rules
+  foor the cascade.
+*/
+
+/* 
+  IMG
+  Apply a more general rule for 
+  all images that I can
+  overwrite later, if needed.
+*/
+img {
+  width: 100%;
+}
+
+/* 
+  COLOR SCHEME
+  Apply a more genera rule for 
+  every _even_ section in the 
+  main.
+*/
+main section:nth-child(even) {
+  background-color: var(--leather);
+}
+
+/* 
+  Flexbox for Rows 
+*/
+main section {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 25px;
+}
+
+main section div {
+  flex: 1;
+}
+
+/* 
+  When the div's 450 or less,
+  overwrite these rules.
+*/
+/* @media screen and (max-width: 450px) {
+  main section {
+    flex-wrap: wrap;
+  }
+  main section div {
+    flex: auto;
+  }
+} */
+
+/* 
+  Flexbox for Featured Lists
+*/
+.featured-list {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 15px;
+  list-style-type: none;
+}
+
+.featured-list li {
+  margin: 50px 0;
+}

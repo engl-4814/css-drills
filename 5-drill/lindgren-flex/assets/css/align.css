@@ -1,0 +1,30 @@
+/* 
+  Practice aligning some children elements
+ */
+
+/* Reset paragraph margins */
+p {
+  margin: 0;
+}
+/* Make img consistent */
+main div img {
+  width: 100%;
+}
+
+main div > * {
+  max-width: 300px;
+}
+
+/* Flexbox */
+
+main div {
+  display: flex;
+  padding: 25px;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.flex-right-align {
+  justify-content: flex-end;
+}

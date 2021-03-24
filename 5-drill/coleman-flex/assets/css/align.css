@@ -1,0 +1,47 @@
+.flex { 
+    display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}  
+html {
+    background-color:#F8EDEB;
+}
+p { 
+    color:#84A59D;
+}
+#header {
+    align-items: center;
+    align-self: flex-start;
+}
+.img-border {
+    max-width: 120%;
+    border: 6px solid #DDBEA9;
+    border-radius: 2%;
+}
+body div > * {
+    max-width: 450px;
+}
+#paragraph {
+    align-items: center;
+    align-self: auto;
+    border: 6px solid #ddbea9
+}
+.img {
+    display: flex;
+    width: 120%;
+    border:6px solid #DDBEA9;
+    border-radius: 2%;
+    align-items: flex-end;
+}
+#Ronaldo {
+    align-items: center;
+    align-self:flex-end;
+}
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif, cursive;
+    color:#84A59D;
+    background-color: #ddbea9;
+    width: 300px;
+}

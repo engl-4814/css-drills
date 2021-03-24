@@ -1,0 +1,14 @@
+.image-1{
+  display: flex;
+  justify-content: flex-start;
+}
+.p-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-2{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
