@@ -1,6 +1,8 @@
 # Return of the Grid: Grinding Your Multi-Dimensional Alignment Skills with ```grid``` && ```flex```
 
-You've gotten some practice with both grid and flexbox. Now, cast your gaze upon the world around for inspiration. Find a layout that brings you joy and recreate it with grid and flexbox.
+You've gotten some practice with both grid and flexbox. Now, cast your gaze upon the world around for inspiration. Now, create 2 new layouts: 
+1. Create the wireframe that you worked on in class.
+2. Find another layout in the wild that brings you joy and recreate it with grid and flexbox.
 
 Be sure to balance the challenge with your comfort level. I want us all to push ourselves forward in this one, so we can practice some more advanced flexible techniques over the last coming weeks.
 
@@ -10,20 +12,19 @@ Follow this procedure to setup your coding folder:
 
 1. Within this root folder, create a new folder with the name: `lastname-grid`.
    - **NOTE** `lastname` is your last name. Mine would be: `lindgren-grid`.
-2. Inside the root of *your personal coding folder*, create the an HTMl file named `grids.html`.
+2. Inside the root of *your personal coding folder*, create 2 `.html` files named however you'd like.
 3. Again, inside the root of *your personal coding folder*, create an `assets` folder.
 4. Inside `assets`, create a `.keep` file and a `css` folder.
-5. Inside `css`, create `grids.css` to link to `grids.html`.
+5. Inside `css`, create 2 `.css` files, which link to your respective `.html` files.
 6. `※\(^o^)/※` Start writing some code! `※\(^o^)/※`
 
 ## Goal
 
 Practice different design and grid techniques from the readings / videos.
 
-1. Design a grid as a wireframe
-2. Code it using any of the grid techniques that we have reviewed in class. Youo can also consider branching out, if you so desire.
-3. **Be sure to practice using HTML5 elements**, where you can and should do so. Do no create a ```div`` inception.
-4. Be sure to include your wireframe as a file in your assets folder.
+1. Code your 2 layouts using any of the grid techniques that we have reviewed in class. Youo can also consider branching out, if you so desire.
+2. **Be sure to practice using HTML5 elements**, where you can and should do so. Do no create a ```div`` inception.
+3. Be sure to include your wireframe as a file in your assets folder.
 
 
 ## Other Considerations
