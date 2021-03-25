@@ -1,0 +1,33 @@
+.parent-div1{
+  display: grid;
+  border: solid seagreen;
+  border-radius: 5px;
+  grid-template-columns: 3fr 5fr 3fr;
+  grid-template-rows: 5fr 7fr 5fr;
+  row-gap: 3rem;
+  column-gap: 3rem;
+}
+html{
+  background-color: tan;
+}
+.parent-div2{
+  display: grid;
+  border: solid seagreen;
+  border-radius: 5px;
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 5px;
+  column-gap: 5px;
+
+}
+.div2-item1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.div2-item2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
