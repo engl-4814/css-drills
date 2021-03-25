@@ -3,7 +3,6 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: 1fr;
   column-gap: 10px;
   row-gap: 1em;
 }
@@ -13,14 +12,16 @@
   background-color: aqua;
 }
 
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
+div > img {
+  width: 100%;
 }
 
-.box2 {
+.box1 {
+  grid-column: 1/4;
+  grid-row: 1/2
+}
+
+/* .box2 {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
@@ -39,10 +40,9 @@
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
-}
+} */
+
 .box5 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-column: 1/4;
+  grid-row: 3/4;
 }
