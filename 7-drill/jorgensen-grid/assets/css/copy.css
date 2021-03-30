@@ -1,0 +1,153 @@
+/*WEBSITE INSPO*/
+https://kaylahollatz.com/
+
+/*GENERAL*/
+
+html {
+    font-size: 12;
+}
+
+div {
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+
+}
+
+/*SITE WIDE*/
+
+header {
+    display: flex;
+    padding: auto;
+    background-color: rgb(228, 235, 248);
+}
+
+nav {
+    display: grid;
+    background-color: whitesmoke;
+}
+
+#search {
+
+}
+
+#logo {
+    
+}
+
+#profile {
+
+}
+
+#social {
+
+}
+
+body {
+    padding: auto;
+}
+
+#quiz {
+    background-color: green;
+}
+
+#intro {
+    background-color: white;
+}
+
+#strategy {
+    display: flex;
+    flex-direction: row;
+    background-color: teal;
+}
+
+#results {
+    display: "grid";
+    background-color: white;
+}
+
+#blog {
+    display: "flex";
+    flex-direction: row;
+    background-color: white;
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 200px 100px 100px;
+    grid-auto-columns: (3, 1fr);
+    padding: auto;
+    background-color: white;
+}
+
+.box1 {
+
+}
+
+.box2 {
+
+}
+
+.box3 {
+
+}
+
+.box4 {
+
+}
+
+.box5 {
+
+}
+
+.box6 {
+
+}
+
+.box7 {
+
+}
+
+.box8 {
+
+}
+
+.box9 {
+
+}
+
+.box10 {
+
+}
+
+.box11 {
+
+}
+
+.nested {
+
+}
+
+.button {
+
+}
