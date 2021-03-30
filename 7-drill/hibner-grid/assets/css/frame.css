@@ -1,0 +1,26 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr 400px 1fr;
+  grid-auto-rows: 400px;
+}
+
+.top {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display:flex;
+}
+
+.frame {
+  border: 15px solid orange;
+}
+
+p {
+  padding: 10px;
+}
+
+/*Supposed to resemble a basketball hoop!*/
