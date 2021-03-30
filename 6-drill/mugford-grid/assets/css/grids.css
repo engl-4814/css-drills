@@ -1,0 +1,26 @@
+header
+{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: pink;}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+li
+{
+  display: flex;
+  flex-flow: column;
+  grid-template-rows: 50px;
+
+
+  
+}
+
+/* use `fr`, `min-content`, `max-content`, and fixed values (`px`).*/
+
+.wrapper
+{display: grid;
+grid-template-columns: repeat (4, 1fr) repeat (4, 100px);
+background-color: pink;
+color: white;}
