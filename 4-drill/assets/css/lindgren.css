@@ -49,8 +49,16 @@ body {
   color: black;
   font-size: 1rem;
   line-height: 1.5;
+  font-family: 'Open Sans';
 }
 
+header{
+  font-family: 'Merriweather';
+}
+
+blockquote{
+  font-family: 'Slabo';
+}
 /* 
   MAIN COPY SIZING
   With the base size at 16px:
