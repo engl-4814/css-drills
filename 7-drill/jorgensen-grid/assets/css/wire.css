@@ -1,0 +1,61 @@
+/*GENERAL*/
+
+html {
+    font-size: 12;
+}
+
+div {
+
+}
+
+p {
+
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+img {
+
+}
+
+/*SITE WIDE*/
+
+header {
+    padding: auto;
+}
+
+body {
+    padding: auto;
+}
+
+footer {
+    padding: auto;
+}
+
+#images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#content {
+
+}
+
+#grid {
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: 200px;
+    column-gap: 20px;
+    row-gap: 10px;
+}

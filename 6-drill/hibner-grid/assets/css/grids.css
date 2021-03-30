@@ -1,0 +1,18 @@
+.wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+main {
+    font-size: 16px;
+}
+
+h {
+    font-size: 20px;
+}
+
+.one {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

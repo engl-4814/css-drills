@@ -1,0 +1,79 @@
+/*||GENERAL*/
+
+div {
+
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+p {
+
+}
+
+img {
+    height: 240px;
+    width: 240px
+}
+
+/*SITE WIDE*/
+
+html {
+    background-color: whitesmoke;
+}
+
+header {
+    padding: 50px 40px;
+}
+
+body {
+    font-size: 12px;
+    padding: 50px 40px;
+}
+
+footer {
+    font-size: .75em;
+    padding: 50px 40px;
+}
+
+#content {
+    background-color: wheat;
+}
+
+#images {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+
+#grid {
+    background-color: salmon;
+    border: solid brown;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    
+}
+
+.fr {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.minmax {
+    display: grid;
+    grid-template-columns: minmax(100px, 500px);
+    grid-template-rows: minmax(100px, 500px);
+}
+

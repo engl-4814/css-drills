@@ -1,0 +1,73 @@
+html {
+    background-color: #f1faee;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #a8dadc;
+    border: 3px solid #1d3557;
+    border-radius: 2em;
+    padding: .5em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: .5rem 1rem
+}
+.sec-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 2px solid #e63946;
+    border-radius: 1em;
+}
+.sec-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 2px solid #e63946;
+    border-radius: 1em;
+}
+.sec-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 2px solid #e63946;
+    border-radius: 1em;
+}
+.sec-4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 2px solid #e63946;
+    border-radius: 1em;
+}
+.things {
+    display: flex; 
+    justify-content: center;
+}
+.eat {
+    display: flex; 
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.stay {
+    display: flex; 
+    justify-content: center;
+}
+
+.tips {
+    display: flex; 
+    justify-content: center;
+}
+.River-walk {
+    width: 60%;
+    border-radius: 1em;
+}

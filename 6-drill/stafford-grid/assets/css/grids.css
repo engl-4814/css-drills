@@ -1,0 +1,30 @@
+html {
+    background-color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.1box {
+    grid-template-columns: after; 
+    grid-template-rows: backdrop;
+}
+
+.2box {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:3;
+}
+
+.3box {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:3; 
+}
+
+.4box {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:3;
+}
