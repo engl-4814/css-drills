@@ -72,10 +72,12 @@ body {
 }
 
 #intro {
+    display: flex;
+    align-content: flex-end;
     background-color: white;
 }
 
-#strategy {
+#philosophy {
     display: flex;
     flex-direction: row;
     background-color: teal;
