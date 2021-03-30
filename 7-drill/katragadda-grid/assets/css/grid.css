@@ -1,0 +1,31 @@
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+header{
+    background:orange;
+    color:maroon;
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.border {
+    background-color:rgb(169, 245, 209);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,300px);
+    grid-gap: 20px;
+}
+.grid-container >div{
+    background-color: white;
+
+}
