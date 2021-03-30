@@ -1,0 +1,35 @@
+body {
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    background-color:blue;
+}
+
+#bluegrid {
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#greengrid {
+    background-color: green;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#redgrid {
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#yellowgrid {
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 5px
+}
