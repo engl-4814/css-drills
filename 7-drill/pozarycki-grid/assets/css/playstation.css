@@ -1,0 +1,22 @@
+body {
+  color: white;
+}
+
+h1, h3, h6 {
+  color: black;
+  text-align: center;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(3, 250px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.game img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}
