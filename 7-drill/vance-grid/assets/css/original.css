@@ -1,0 +1,34 @@
+/* GRID */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 1em;
+}
+
+.wrapper > * {
+  border: 4px solid rgb(0, 78, 4);
+  background-color: rgb(255, 251, 0);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div > img {
+  width: 100%;
+}
+
+.box1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.box3 {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.box4 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
