@@ -82,12 +82,12 @@ body {
 }
 
 #results {
-    display: "grid";
+    display: grid;
     background-color: white;
 }
 
 #blog {
-    display: "flex";
+    display: flex;
     flex-direction: row;
     background-color: white;
 }

@@ -1,0 +1,16 @@
+#travel{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.sevenwonders {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(241, 239, 97);
+}
+
+.travel-image {
+    size:50px;
+}
+
