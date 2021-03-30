@@ -1,0 +1,48 @@
+/*GENERAL*/
+
+html {
+
+}
+
+p {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+
+}
+
+/*SITE WIDE*/
+.button {
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50px;
+    border: gray;
+    border-style: solid;
+    color: gray;
+    background-color: transparent;
+}
+
+.button2 {
+
+}
+
+
+
