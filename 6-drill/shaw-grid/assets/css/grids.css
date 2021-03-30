@@ -1,0 +1,14 @@
+.body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 0.5rem 1rem;
+  }
+  
+  .box-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: blue;
+    border: 2px solid black;

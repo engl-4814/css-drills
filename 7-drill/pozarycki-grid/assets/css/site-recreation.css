@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Neuton:wght@200&display=swap');
+
+body {
+  color: white;
+}
+
+h1 {
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  padding-top: 50px;
+}
+
+h2 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 32px;
+  color: black;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+h6 {
+  font-family: 'Neuton', serif;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+p {
+  color: black;
+}
+
+#nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 50px);
+  justify-content: center;
+}
+
+.search, .WON-HUNDRED, .shopping-bag, .journal, .women, .men, .currency {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  border-top: 1.5px solid black;
+  border-left: 1.5px solid black;
+}
+
+.WON-HUNDRED {
+  border-top: 1.5px solid black;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.shopping-bag {
+  border-top: 1.5px solid black;
+  border-right: 1.5px solid black;
+}
+
+.journal {
+  border-left: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
+
+.women, .men {
+  border-bottom: 1.5px solid black;
+}
+
+.currency {
+  border-bottom: 1.5px solid black;
+  border-right: 1.5px solid black;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+}

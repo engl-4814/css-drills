@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+html{
+    height: 100%;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top left,#111032 50%,#000000 50%);
+    font-family: 'Train One', cursive;
+    text-shadow: 5px -3px 20px rgb(250, 0, 0,10) ;
+}
+header {
+    text-align: center;
+    padding: 10px;
+    margin: 3px;
+    color: red;
+    box-shadow: 4px 4px 2px rgba(126, 249, 253, 1.2);          
+}
+.wrapper {
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(3,300px);
+    column-gap: 20px;
+    color: #f1953e;
+    font-weight: 600;
+    font-size: 2rem;;  
+}
+.side {
+    grid-column: span 1;
+    grid-row: 1/4;
+    line-height: 4.5rem;
+    border: radius 0.5em;
+    border: 3px solid transparent;
+    box-shadow: 4px 1px 0px #9aa4bb ; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;   
+}
+.content {
+    grid-column: 2/4;
+    grid-row: 1/4;
+    text-align: center;
+    place-items: center;
+    overflow: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+}
+{.side,.content}::-webkit-scrollbar {
+    display: none;
+  }
+.content-1{
+    line-height: 4.5rem;
+    box-shadow: 6px 1px 0px #f1b895 ;
+}
+.content > h2 {
+    background: linear-gradient(to right, rgb(11, 161, 230) 40%, rgb(233, 75, 75) 60%);  
+   -webkit-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-shadow: none;   
+}
+footer{
+    height: 150px;
+    position: static;
+    background-color:#282d30;
+    opacity: 1;
+}
+footer > ul {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    grid-template-areas:"a b" 
+                        "c d";    
+    color: orange;
+    font-weight: 700;
+    list-style: none;
+    align-items: center;          
+}
+.media{
+    grid-area: a;    
+}
+.personal{
+    grid-area: b;    
+}
+.social {
+    grid-area:c;
+}
+.news {
+    grid-area:d;
+}
