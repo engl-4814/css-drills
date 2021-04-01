@@ -1,0 +1,100 @@
+
+/*||Color Scheme fcd5ce
+    FEC5BB, FCD5CE, FAE1DD, 
+    F8EDEB, E8E8E4, D8E2DC,
+     ECE4DB, FFE5D9, FFD7BA, FEC89A*/
+
+/*||GENERAL STYLES*/
+
+html {
+    font-size: 13px;
+    background-color: #ffffff;
+}
+
+body {
+    padding: 10px 20px;
+    margin:10px 20px;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 400;
+    color: black;
+    background-color: #f3faf6;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 400;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: #ee8727;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FCD5CE;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #f5e8dc;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.50rem;
+    font-weight: 500;
+    color: #f5e8dc;
+}
+
+h5 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: f5e8dc;
+}
+
+ul {
+    list-style: none;
+    font-weight:300;
+}
+
+ol {
+	font-weight: 300;
+}
+
+blockquote {
+	font-size: 1.75rem;
+	font-weight: 200;
+	font-style: italic;
+	text-align: center;
+}
+
+img {
+	height: 627px;
+	width: 1200px;
+}
+
+/*||SITE WIDE*/
+
+header {
+    padding: 10px 20px;
+    margin: 5px 10px;
+	background-color: #fdf1ec;
+}
+
+footer {
+    padding: 10px 20px;
+    margin: 5px 10px;
+    background-color: #fdf1ec;
+    color: #ee8727;
+	font-size: 0.75rem;
+}

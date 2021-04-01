@@ -1,0 +1,161 @@
+/* 
+  Research this @import declaration that 
+  imports fonts from https://fonts.google.com/ 
+
+  Normally, we don't import fonts from 
+  external sources in our published 
+  code, since it creates a performance-loading
+  issue.
+  
+  But, it's fine for prototyping and play.
+
+  Also, see if you can break down the URL
+  in the url() method. What does each part 
+  of the URL seem to declare after 'css?'?
+*/
+/*@import url(https://fonts.googleapis.com/css?family=Merriweather:200,400,700|Open+Sans:400italic,700italic,400,700|Slabo+27px:400);*/
+/*@import url(https://fonts.googleapis.com/css2?family=Fascinate&display=swap);*/
+@import url(https://fonts.googleapis.com/css2?family=Fascinate&family=Shadows+Into+Light&display=swap);
+
+/* 
+  Change the default font size
+  below, either here or in your
+  inspector tool.
+  
+  What happened, and why? That's
+  what we're going to examine herein.
+*/
+html {
+  /*
+    This is the default U.A. font-size.
+
+    See if you can find its declaration
+    in your browser's inspection tool.
+  */
+  font-size: 16px;
+  background-color: linen;
+}
+
+/* 
+  Note the rem value on the sizing.
+  It's a 'root element' value, so it
+  is a value computed against the
+  value defined in the root element.
+
+  It's a great way to build a scheme,
+  i.e., a set of rules, that produce
+  an ensembled design written in one
+  place in your code.
+*/
+
+body {
+  /*background-color: #fff;*/
+  color: black;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* 
+  MAIN COPY SIZING
+  With the base size at 16px:
+    10px = 0.625rem
+    12px = 0.75rem
+    14px = 0.875rem
+    16px = 1rem (base)
+    18px = 1.125rem
+    20px = 1.25rem
+    24px = 1.5rem
+    30px = 1.875rem
+    32px = 2rem
+    ...
+*/
+body { font-size: 20px; }
+h1 { font-size: 2.25rem; 
+    background-color: white;
+    padding: 1rem;
+    border: medium solid peachpuff;
+} 
+h2 { font-size: 1.5rem; } 
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.25rem; font-style: italic; }
+blockquote { font-size: 1.125rem; }
+
+/* MAIN FONT FAMILIES */
+p  { font-family: 'Shadows Into Light', cursive; }
+h1,h2,h3,h4 { font-family: 'Shadows Into Light', cursive; }
+blockquote { font-family: 'Shadows Into Light', cursive; }
+
+/* POST STYLES */
+.post {
+  max-width: 1000px;
+  margin: auto auto;
+  /*margin-left: 2rem;
+  margin-right: 2rem;*/
+}
+
+.post h1 {
+  margin-bottom: 35px;
+}
+
+.post p {
+  /* 
+    Remember how the box model 
+    uses the four-sides to also
+    specify which side should
+    have what value, if you so
+    desire it.
+
+    Inspect a .post's paragraph
+    and review the box model
+    graphic to see which sides these 
+    fixed values are applied to.
+  */
+  padding: 10px 0px 10px 40px;
+}
+
+/* See the pseudo-elements @ work! */
+
+/* Style .post first letter and line */
+.post p:first-of-type:first-letter {
+  float: left;
+  margin: -40px 0px 0px -2px;
+  font-family: 'Shadows Into Light', cursive;;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.post p:first-of-type:first-line {
+  margin-top: 20px;
+  line-height: 2.5;
+  background: peachpuff;
+}
+
+/* Style .post blockquotes */
+.post blockquote {
+  /* 
+   Note the CSS specificity @ work
+   with this font-family declaration
+  */
+  margin: 0em 4rem;
+  padding: 1.5rem;
+  font-family: Slabo 27px;
+}
+
+/* More pseudo-elements! */
+.post blockquote::before {
+  font-family: Merriweather;
+  content: "\""; /*Research this rule*/
+  font-size: 2rem;
+}
+.post blockquote::after {
+  font-family: Merriweather;
+  content: "\"";
+  font-size: 2rem;
+}
+
+footer { 
+    font-family: 'Shadows Into Light', cursive; 
+    background-color: peachpuff;
+    margin: 4rem;
+    padding: 1rem;
+    border: medium solid white;
+}

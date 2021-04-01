@@ -1,0 +1,22 @@
+.card-wrapper{
+    list-style-type: none;
+}
+.card{
+    background-color: #f3f4cc;
+    border-radius: 25px;
+    padding-bottom: 30px;
+    max-width: 75%;
+    float: left;
+}
+.card h3{
+    margin-top: 5px;
+    font-size: 18px;
+}
+.card img{
+    border-radius: 100px;
+    width: 100%;
+}
+img~h3{
+    margin-left: 10px;
+    margin-right: 20px;
+}

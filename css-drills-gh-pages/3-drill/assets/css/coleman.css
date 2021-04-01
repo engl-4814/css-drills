@@ -1,0 +1,86 @@
+/* 
+  **DO NOT** push your code until class time.
+  
+  **DO NOT** simply copy-paste the code from the 
+  readings. Be sure to write your own HTML page, 
+  so you can practice these skills.
+
+  1. Practice organizing and documenting your
+  CSS with comments.
+  - Logical sections that begin with common/
+    general elements to more specfic components
+  - Avoid overly specific selectors, if possible
+
+  2. Practice sizing elements. Be sure that at
+  least one of the sections sizes an image to fit
+  within a parent container that is smaller than the
+  image. Be sure to create sections that practice 
+  the following different values:
+  - One section of HTML sized with fixed values
+  - One section of HTML sized with percentages
+  - One section of HTML sized with min- & max-
+  - One section of HTML sized with viewport units
+  
+  Use appropriate classes and IDs in your HTML to 
+  distinguish these sections and write more 
+  meaningful and organized CSS selectors.
+ */
+ /* Header of Page*/
+ h1 {
+     background-color:floralwhite;
+     color:darkcyan;
+     text-align: center;
+     font-weight: bold;
+     padding: 10px;
+ }
+ /* Editing the paragraph styles*/
+ p {
+     color:lightseagreen;
+     text-align: justify;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ /* Editing the images */
+.img-border {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border:6px double darkturquoise;
+    border-radius: 5%;
+}
+.img-radius {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    border: 6px dotted darkslateblue;
+    width:900px ;
+    height:600px;
+}
+/*Editing the caption for the first image*/
+figcaption {
+    color:darkslategrey;
+    text-align:center;
+    font-weight: bold;
+    min-width: 500px;
+    max-width: 1300px;
+}
+/* Editing the other headers*/
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: darkslategrey;
+    background-color:powderblue;
+    width: 10%;
+}
+h3 {
+    width: 20vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:darkslategrey;
+    background-color:thistle;
+    width: 25vw;
+}
+/* Editing the Resources*/
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:dodgerblue;
+}

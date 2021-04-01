@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,600&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color:white;
+    color:black;
+    font-size: 1rem;
+    line-height:1.5;
+}
+
+body { font-size: 20px; }
+h1 { font-size: 2.25rem; } 
+h2 { font-size: 1.5rem; } 
+h3 { font-size: 1.25rem; font-style:italic }
+blockquote { font-size: 1.25rem; }
+
+h1,h2,h3 { font-family:"EB Garamond", serif}
+blockquote { font-family: "EB Garamond", serif}
+p {font-family: "Roboto", sans-serif}
+
+.page {
+    max-width: 1000px;
+    margin: auto auto;
+}
+
+.page p {
+    padding: 10px 0px 10px 40px;
+}
+
+.page h3 {
+    padding: 0px 20px 0px 20px;
+    background-color: #F6AE2D;
+    color: #BC4749;
+    max-width:fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.page blockquote {
+    margin:auto;
+    color:#BC4749;
+    padding: 0px 0px 0px 60px;
+}
+
+.page p:first-of-type {
+    background: #BDD5AF;
+}
