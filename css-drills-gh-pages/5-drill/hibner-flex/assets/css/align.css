@@ -1,0 +1,27 @@
+html {
+  background-color: rgb(214, 164, 70);
+}
+
+body {
+  margin: 50px 100px;
+}
+
+main {
+  color: maroon;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+}
+
+img {
+  max-width: 200px;
+}
+
+.words {
+  align-self: center;
+  max-width: 300px;
+}
+
+.three {
+  align-self: flex-end;
+}

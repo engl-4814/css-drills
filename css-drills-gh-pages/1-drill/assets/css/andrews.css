@@ -1,0 +1,28 @@
+/* GOAL: 
+  Practice selecting particular HTML elements and groups of element 
+  by using the different selector types: Type, class, and descendant 
+  combinator */
+
+/* General Ruleset: 
+  Practice making a heading font scheme with font-size */
+  h1 {font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size:2ex }
+
+/* General Ruleset: 
+  Target the article element.
+  Apply a max-width of 500px.
+  Center it with the box model's margin as follows: margin: auto auto; */
+article {max-width: 500px; margin:auto,auto;}
+/* General Ruleset: 
+  Use the box model to style the images and the links */
+img{ padding:100px, 100px; border:3px, rgb(15, 168, 61) }
+/* General Ruleset: 
+  Use the box model to style the header and footer? */
+header{ background-color:chartreuse; padding: 10px, 10px;}
+/* More Specific Ruleset: 
+  Select any img with the class img-border and add a border to it. */
+.img-border{border:transparent, goldenrod }
+/* More Specific Ruleset: 
+  Select any img within a div with the class float.
+  Apply a float: left; rule and padding-right: 20px; rule to it. */
+.float img {float:left; padding-right: 20px; }

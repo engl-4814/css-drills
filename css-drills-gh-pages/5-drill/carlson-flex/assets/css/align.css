@@ -1,0 +1,17 @@
+section {
+  display: flex;
+}
+
+.second {
+  align-items: center;
+  flex-direction: column;
+}
+
+.second div {
+  width: 300px;
+}
+
+.third {
+  justify-content: flex-end;
+  align-items: flex-end;
+}

@@ -1,0 +1,40 @@
+/* 
+  Note how my selections follow 
+  the source order.
+*/
+.card-wrapper {
+  list-style-type: none;
+}
+
+.card {
+  float: left;
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+  padding-bottom: 1rem;
+  margin: 1rem;
+  max-width: 250px;
+}
+
+.card > :last-child {
+  margin-bottom: 0;
+}
+
+.card h3 {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+/* 
+  Changed this to only select images
+  that are descendents of the .card
+  class
+*/
+.card img {
+  border-radius: 0.5rem 0.5rem 0 0;
+  width: 100%;
+}
+
+.card img ~ * {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

@@ -3,7 +3,7 @@
 In small teams, do the following for next Tuesday's class:
 
 1. Choose between the following 2 websites to recreate with grid and flexbox:
-   1. Easier: [https://psikontacto.com/](https://psikontacto.com/).
+   1. Easier: [https://psikontacto.com/](https://psijust kontacto.com/).
    2. More challenging: [https://www.vermont.eu/](https://www.vermont.eu/).
 2. Sketch a desktop-size wireframe by abstracting the generic layout patterns per content area. 
 3. Annotate the layout with HTML and CSS layout applications.
