@@ -1,0 +1,54 @@
+/* CSS stylesheet for Drill 4 */
+
+/* Import font styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato&display=swap');
+
+/* Define baseline font size for page */
+
+html {
+  font-size: 16px;
+}
+
+/* Define colors and font size for body */
+
+body {
+  background-color: #fff3b0;
+  color: black;
+  font-size: 1rem;
+}
+
+/* Define header sizes */
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+
+/* Define font families */
+
+p { font-family: Lato;}
+h1,h2,h3,h4 { font-family: Indie Flower;}
+
+/* Define custom variable poem-padding */
+
+p {
+  --poem-padding: 50px;
+}
+
+/* .intro styles */
+
+.intro {
+  max-width: 1200px;
+  margin: auto auto;
+}
+
+/* .poem styles */
+
+.poem h2,h3,h4 {
+  margin: 15px;
+}
+
+.poem p {
+  padding-left: var(--poem-padding);
+}

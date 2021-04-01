@@ -1,0 +1,23 @@
+html {
+    background-color:#EDF6F9;
+}
+.flex {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: space-around;
+}
+img {
+    width: 50%;
+    border:6px solid #DDBEA9;
+    border-radius: 2%;
+}
+p {
+    color:#006D77 ;
+    width: 50%;
+}
+.section-2 {
+    background-color: burlywood;
+}

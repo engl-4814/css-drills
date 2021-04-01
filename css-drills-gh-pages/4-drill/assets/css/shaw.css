@@ -1,0 +1,70 @@
+/* 
+  Research this @import declaration that 
+  imports fonts from https://fonts.google.com/ 
+
+  Normally, we don't import fonts from 
+  external sources in our published 
+  code, since it creates a performance-loading
+  issue.
+  
+  But, it's fine for prototyping and play.
+
+  Also, see if you can break down the URL
+  in the url() method. What does each part 
+  of the URL seem to declare after 'css?'?
+*/
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap);
+
+/* 
+  Change the default font size
+  below, either here or in your
+  inspector tool.
+  
+  What happened, and why? That's
+  what we're going to examine herein.
+*/
+html {
+  font-size: 14px;
+}
+
+/* 
+  Note the rem value on the sizing.
+  It's a 'root element' value, so it
+  is a value computed against the
+  value defined in the root element.
+
+  It's a great way to build a scheme,
+  i.e., a set of rules, that produce
+  an ensembled design written in one
+  place in your code.
+*/
+body {
+  background-color: papayawhip;
+  color: c6644;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* MAIN FONT FAMILIES */
+p  { font-family: 'Playfair Display', serif;}
+h1,h2,h3 {font-family: 'Playfair Display', serif;}
+blockquote { font-family: 'Playfair Display', serif;}
+
+body { font-size: 20px; }
+h1 { font-size: 2rem;font-style: bold; color: 84a59d;} 
+h2 { font-size: 2rem; color: 84a59d;} 
+h3 { font-size: 2rem; color: 84a59d;}
+h4 { font-size: 2rem; color: 84a59d;}
+blockquote { font-size: 1.125rem; }
+
+/* POST STYLES */
+.txtBox {
+color: 7f5539;
+  max-width: 1000px;
+  margin: auto auto;
+}
+
+.p {
+    font-size: 1.5rem; 
+    color: f6bd60;
+}

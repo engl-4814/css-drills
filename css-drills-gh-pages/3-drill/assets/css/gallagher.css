@@ -1,0 +1,55 @@
+/* stylesheet for gallagher.html */
+
+/* adding effect to the header of the page*/
+.header {
+    padding: 12px;
+    background-color: lightsteelblue;
+}
+
+/* changing style of the first header */
+h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightsteelblue;
+    color: darkslateblue;
+}
+
+/* adding a simple box with no filler under the first header */
+.box {
+  border: 5px solid darkslateblue;
+}
+
+/* apply a margin to the body */
+body {
+  margin: auto auto;
+}
+
+/*
+2. Practice sizing elements. Be sure that at
+  least one of the sections sizes an image to fit
+  within a parent container that is smaller than the
+  image. Be sure to create sections that practice 
+  the following different values:
+  - One section of HTML sized with fixed values
+  - One section of HTML sized with percentages
+  - One section of HTML sized with min- & max-
+  - One section of HTML sized with viewport units
+  */
+
+  /* adding a border to every paragraoh */
+  p {
+    border: 5px solid darkslateblue
+  }
+
+  /* styling and sizing the images */
+  img {
+    border: 1px solid linen;
+    width: 75%;
+    /* height: 315px; */
+    padding: 1px;
+}
+
+/* Making the links in the list italic */
+li {
+  font: italic;
+}
