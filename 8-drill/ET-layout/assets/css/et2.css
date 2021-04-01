@@ -1,0 +1,8 @@
+header {
+  display: grid;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}

@@ -25,6 +25,7 @@ nav ul {
 nav ul li {
     display: flex;
     justify-content: space-between;
+    margin: 5px;
 }
 
 #intro {
@@ -44,17 +45,57 @@ nav ul li {
     background-color: transparent;
 }
 
-.button2 {
-
+.circle_button {
+    width: 5%;
+    height: 0;
+    padding-bottom: 5%;
+    border-radius: 50%;
+    border: none;
+    overflow:hidden;
+    background-color: yellow;
 }
 
-header .button {
+header.button {
     display: flex;
     justify-content: flex-end;
 }
 
-header p {
-    font-size: 3em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 200px 200px;
+header.circle_button {
+    display: flex;
+    justify-content: center;
 }
+
+header p {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 340px;
+    height: 240px;
+}
+
+header img {
+    width: 240px;
+    height: 240px;
+}
+
+#highlights {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#highlights div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 50px;
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(227, 227, 235);
+}
+
+#highlights img {
+    clip-path: circle(20% at 50% 50%);
+}
+
+
