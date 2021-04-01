@@ -1,0 +1,40 @@
+header
+{
+  font-family: cursive;
+  font-size: large;
+  color: pink
+}
+
+body
+{
+  background-color: plum;
+}
+
+
+
+.first
+{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row
+}
+
+.second
+{
+  display: flex;
+  justify-content: flex-end
+}
+
+.third
+{
+  display: flex;
+  justify-content: flex-start
+}
+
+p
+{
+  margin: 10px;
+  padding: 50px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:whitesmoke}
+

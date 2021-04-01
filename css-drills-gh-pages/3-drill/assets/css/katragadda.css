@@ -1,0 +1,53 @@
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+header{
+    background:rgb(100, 20, 67);
+    color: white;
+    text-align: center;
+}
+article{
+    max-width: 500px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display:flex;
+    border-radius:10%;
+}
+.place-holder-image{
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#icecream-image{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+#giant-scoop{
+    width: 20vw;
+    height: 20vh;
+    margin:auto;
+    min-height: 300px;
+    max-height: 500px;
+    max-width: 500px;
+}
+footer{
+    background:rgb(246, 252, 196);
+    color:black;
+    text-align: center;
+}
+#reference{
+    list-style-type: none;
+}

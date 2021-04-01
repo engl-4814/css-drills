@@ -1,0 +1,44 @@
+body { background-color: skyblue; }
+h1
+{ font-family: cursive;
+    color: white; 
+margin: auto}
+
+/*This is my first CSS comment.
+I am commentind that I made the whole background blue!
+I also made all my h3 headings white and grey*/
+
+p
+{font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+color:white}
+
+/*changed the paragraph formatting*/
+
+img
+{width: 300px;
+    border:  100px solid grey;
+    padding: 0px;
+    margin: 20px;
+    float:left; }
+
+/*I made the image smaller with a pink border*/
+
+
+
+ul
+{list-style: none;
+background-color: pink;
+margin: 50px;
+font-family: cursive;
+font-size: x-large}
+
+
+/*I made the list have a pink backround*/
+
+
+
+article
+{width: 500 px;
+margin: auto ;
+color: white}
