@@ -1,0 +1,22 @@
+nav {
+  display: grid;
+  grid-template-columns: 1fr, 3fr, 1fr;
+}
+
+nav > .logo {
+  grid-column: 1;
+}
+
+nav > .nav {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  justify-content: space-around;
+}
+
+.nav > ul {
+  display: flex;
+}
+
+nav > .button {
+  grid-column: 5;
+}
