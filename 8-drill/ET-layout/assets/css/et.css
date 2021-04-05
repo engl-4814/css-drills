@@ -7,7 +7,7 @@ nav > .logo {
   grid-column: 1;
 }
 
-nav > .nav {
+div > .nav {
   grid-column-start: 2;
   grid-column-end: 4;
   justify-content: space-around;
@@ -19,4 +19,25 @@ nav > .nav {
 
 nav > .button {
   grid-column: 5;
+}
+
+.open {
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+}
+
+.open > #paragraph {
+  grid-column: 2;
+}
+
+.open > #image {
+  grid-column: 3;
+}
+
+.continue {
+  display: flex;
+}
+
+.continue > button {
+  justify-content: center;
 }
