@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  padding: 20px;
+}
+
+ul {
+  margin-block-start: 1.7em;
+}
+
+nav li {
+  display: inline;
+  margin-right: 30px;
+}
+
+section {
+  display: flex;
+  padding: 20px;
+}
+
+.mainpage > * {
+  padding: 10px;
+  max-height: 300px;
+  max-width: 300px;
+  font-size: 40px;
+}
+
+.mainpage > p {
+  align-self: center;
+  padding-left: 20%;
+}
