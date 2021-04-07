@@ -4,7 +4,7 @@
     background-color: orange;
 }
 
-.sec {
+.services {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -12,8 +12,16 @@
     background-color: linen;
 }
 
-.GR h1 {
+.GR {
     grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: linen;
+}
+
+.GR h1 {
+    grid-column: 1 / 3;
     grid-row: 1 / 3; 
     font-family: 'Open Sans Condensed', sans-serif;
     color: gray;
@@ -26,11 +34,11 @@
     height: 40px;
 }
 
-.focus {
+/*.focus {
     opacity: 50%;
     grid-column: 2 / 4;
     grid-row: 2 / 3;
-}
+} */
 
 .GR img {
     grid-column: 2/4;
