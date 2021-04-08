@@ -61,8 +61,14 @@ nav > .button {
   padding-right: 150px;
 }
 
-.continue {
+#continue {
   position: absolute;
     bottom: calc(25% - 8px);
     left: calc(50% - 14px);
+  background-color: #ffbb02;
+  border-radius: 50%;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 50px;
 }
