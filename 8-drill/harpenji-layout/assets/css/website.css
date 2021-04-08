@@ -16,3 +16,7 @@ li
 {display: inline;
 justify-content: flex-end;
  }
+
+ .second
+ {display: flex;
+justify-content: space-around;}
