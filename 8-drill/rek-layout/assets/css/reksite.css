@@ -1,0 +1,34 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+header nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+header button {
+  grid-column-start: 4;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr 1.25fr 1fr;
+}
+
+.blockp {
+  grid-column-start: 2;
+  grid-column-end: 3
+}
+
+.blockimg {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.intros {
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+}
