@@ -6,6 +6,9 @@ html{
 header {
   background-color:bisque;
 }
+.logo{
+  font-size: 25px;
+}
 
 nav {
   display: grid;
