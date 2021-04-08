@@ -6,15 +6,24 @@ header {
 nav {
   display: grid;
   grid-template-columns: 1fr, 3fr, 1fr;
+  padding-top: 30px;
 }
 
 nav > .logo {
   grid-column: 1;
+  padding-left: 45px;
 }
 
 div.nav {
   grid-column-start: 2;
   grid-column-end: 4;
+}
+
+.nav > ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
 }
 
 nav > .button {
