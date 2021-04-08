@@ -1,0 +1,93 @@
+
+/* 
+  Changing the default font-size
+*/
+html {
+  font-size: 18px;
+}
+
+/* General Section Styles */
+section {
+  padding: 20px;
+}
+section:nth-child(odd) {
+  background: rgb(108, 97, 119);
+}
+section:nth-child(even) {
+  background: goldenrod;
+}
+
+/* FIXED VALUES */
+#fixed-values {
+  width: 400px;
+  margin: auto auto;
+}
+#fixed-values .logo img {
+  width: 100px;
+}
+#fixed-values .content {
+  width: 100px;
+}
+
+/* PERCENTAGE VALUES */
+#percentage-values {
+  width: 50%;
+  margin: auto auto;
+}
+#percentage-values .logo img {
+  width: 25%;
+}
+#percentage-values .content {
+  width: 50%;
+}
+
+/* MIN/MAX VALUES */
+#min-max-values {
+  max-width: 400px;
+  margin: auto auto;
+}
+#min-max-values .logo img {
+  max-width: 25%;
+}
+#min-max-values .content {
+  min-width: 400px;
+}
+
+
+/* VIEWPORT VALUES */
+/* 
+  What's the difference b/t
+  viewport values and %?
+ */
+#viewport-values {
+  width: 70vw;
+  margin: auto auto;
+}
+#viewport-values .logo img {
+  width: 75vw;
+}
+#viewport-values .content {
+  width: 65vw;
+  font-size: 3vw;
+}
+
+/* 
+  What value do rem values
+  compute against?
+ */
+#rem-values {
+  width: 18rem;
+  margin: auto auto;
+}
+#rem-values .logo img {
+  width: 10rem;
+}
+#rem-values .content {
+  width: 10rem;
+}
+
+/*
+  How could I apply the repeating
+  margin declarations more
+  programmatically?
+ */

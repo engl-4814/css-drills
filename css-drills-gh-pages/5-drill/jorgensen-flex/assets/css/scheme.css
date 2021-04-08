@@ -1,0 +1,45 @@
+html{
+    font-size: 10;
+    color:pink;
+}
+
+body {
+    justify-content: space-around;
+    flex-flow: row wrap;
+    display: flex;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+img {
+    height: 240px;
+    width: 240px;
+}
+
+div {
+    display: flex;
+}
+
+/*||SITE WIDE*/
+
+header {
+    display: none
+}
+footer {
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+#content {
+    height: 240px;
+    width: 240px;
+}
+
+.flex-align-right {
+    justify-content: right;
+    display: flex;
+}
