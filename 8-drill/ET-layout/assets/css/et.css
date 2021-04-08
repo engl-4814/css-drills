@@ -6,6 +6,10 @@ html{
 header {
   background-color:bisque;
 }
+.logo{
+  font-size: 25px;
+  position: ;
+}
 
 nav {
   display: grid;
@@ -28,6 +32,11 @@ div.nav {
   flex-direction: row;
   list-style-type: none;
   justify-content: space-between;
+  color: gray;
+}
+
+.nav > ul > li:hover {
+  color: black;
 }
 
 #button {
@@ -63,8 +72,34 @@ nav > .button {
   padding-right: 150px;
 }
 
-.continue {
+#continue {
   position: absolute;
     bottom: calc(25% - 8px);
     left: calc(50% - 14px);
+  background-color: #ffbb02;
+  border-radius: 50%;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 50px;
+  font-size: 2.5em;
+}
+
+h2{
+  text-align: center;
+}
+
+#second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box {
+  background-color: rgb(233, 233, 233);
+}
+
+.box:hover {
+  background-color: rgb(125, 161, 194);
+  color: white;
 }
