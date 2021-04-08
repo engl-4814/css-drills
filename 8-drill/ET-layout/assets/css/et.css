@@ -50,3 +50,9 @@ nav > .button {
   padding-bottom: 150px;
   padding-right: 150px;
 }
+
+.continue {
+  position: absolute;
+    bottom: calc(25% - 8px);
+    left: calc(50% - 14px);
+}
