@@ -12,11 +12,6 @@ nav li {
   margin-right: 30px;
 }
 
-section {
-  display: flex;
-  padding: 20px;
-}
-
 .mainpage > * {
   padding: 10px;
   max-height: 300px;
@@ -28,6 +23,8 @@ section {
   border-radius: 1em;
   margin: .5em;
   max-width: 100em;
+  display: flex;
+  padding: 20px;
 }
 .mainpage > p {
   align-self: center;
@@ -45,6 +42,9 @@ section {
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(2, 100px);
   padding: 2em;
+  background-color: #fae1dd;
+  border-radius: 2em;
+  margin: 1em;
 }
 .extra {
   display: flex;
@@ -76,13 +76,22 @@ section {
   grid-row-start: 2;
   grid-row-end: 3;
 }
-
-.toppings {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows:repeat(auto-fit, minmax(100px, 1fr));
+.toppings figure {
+  margin: 0em;
 }
-
-.toppings > img {
-  width: 100%;
+.toppings {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cherry {
+  max-width: 200px;
+}
+.chocolate-syrup {
+  max-width: 200px;
+}
+.sprinkles {
+  max-width: 200px;
+}
+.whipped-cream {
+  max-width: 200px;
 }
