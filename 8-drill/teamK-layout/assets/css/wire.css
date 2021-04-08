@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+  height: 100%;
+  font-family: 'Helvetica',sans-serif;
+}
+body {
+  background-color: white;
+  text-rendering: optimizeLegibility;
+  width: 100%;
+  height: 100%;
+}
+header {
+  width: 100%;
+  background: #ffd799;
+}
+.banner{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: 3em;
+  margin-left: -1px;  
+}
+header h2 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Bree Serif', serif;
+}
+.navbar,ul,li {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+header ul {
+  list-style: none;  
+}
+#list-elements { 
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  font-size: 20px;
+  font-weight:normal;
+  color: rgba(49, 47, 47, 0.35);
+}
+#button {
+  position: absolute;
+  top: 35px;
+  left: 80%;
+  margin-top: 7px;
+  margin-left:auto;
+  border: 1px solid #bebeba;
+  padding: 20px 30px;
+  border-radius:40px;
+  color: rgba(49, 47, 47, 0.35);
+  border-color: rgba(49, 47, 47, 0.35);
+  letter-spacing:1px;
+  font-size: 12px;
+}
+.animation-container {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 2fr 1fr ;
+  grid-template-rows: 200px 1fr;
+  background-color: #ffd799;  
+}
+.animation-container h2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 46px;
+  letter-spacing:-2px;
+  color: #312f2f;
+  font-weight: lighter;
+  opacity: 1;
+  text-align:justify;
+  justify-self: end;
+} 
+.animation-container h2 span {
+  text-decoration: underline;
+}
+.animation{
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+.card {
+  width: 100%;  
+  background-color:#f1dae2;
+  display:grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 40px;
+  grid-template-areas: "header header header header header"
+                       ".. card1 card2 card3 .."
+                       ". . . . ."
+}
+.card h2 {
+  grid-area: header;
+  justify-self: center;
+  font-size: 46px;
+  letter-spacing: -2px;
+  color: #5e5e5e;
+}
+#card-1 {
+  grid-area: card1;
+  justify-self: center; 
+}
+#card-2 {
+  grid-area: card2; 
+  justify-self: center; 
+}
+#card-3 {
+  grid-area: card3;
+  justify-self: center;  
+}
+#card-3,#card-1,#card-2{
+  display: flex;
+  flex-direction:column;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #9ec1d2;
+  margin-top: 40px;
+  margin-bottom:140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  background-color: #f9fafa;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+}
+#small-1 {
+  font-size: 12px;
+}
+#small-2 {
+  font-size: 18px;
+}
+#small-3 {
+  font-size: 24px;
+  line-height: 36px;
+  padding: 30px 0;
+  color: #5e5e5e;
+  letter-spacing: -1.5px;
+  font-weight: lighter;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  align-content: center;
+  border-radius: 28px;
+  border: 1px solid #ffbb02;
+  font-size: 20px;
+  
+}
+
+.yellow-button{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  color: #ffbb02; 
+  border-radius: 40px;  
+  border: 1px solid #ffbb02;
+  padding: 5px 30px;  
+}
+
+.button p {
+  border-radius: 40px;   
+  text-align: center;
+  color: #9ec1d2;
+  border: 1px solid #9ec1d2;
+  padding: 20px 30px;  
+}
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(2,400px);
+  margin-left: auto;
+  margin-right: auto;
+  background: #f5efdd;
+  gap: 5px;  
+}
+#box-1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;  
+}
+#text-thingy {
+  align-self: center;
+  font-size: 56px;
+  color: #5e5e5e;
+letter-spacing: -2px;
+}
+#button-2 {
+  margin-top: 60px;
+  border-radius: 40px;   
+  text-align: center;
+  color: #ffbb02;
+  border: 1px solid #ffbb02;
+  padding: 20px 50px;
+  align-self: flex-start;
+  font-size: 12px;
+  font-weight: bold;
+}
+#box-2,#box-3,#box-4,#box-5,#box-6,#box-7 {
+  background: #ffbb02;
+  display: flex;
+  flex-direction:row;
+  font-size: 26px;
+  color: white;
+  font-weight: 100;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+  box-shadow: 2px 0px 5px rgba(49, 47, 47, 0.35)
+}
+#box-2 p {
+  align-self: flex-end;
+  justify-content:center;
+  transform: translate(120px,-50px);
+}
+#box-3 p {
+  align-self: flex-end;
+  justify-content:center;
+  transform: translate(100px,-50px);
+}
+#box-4 p {
+  align-self: flex-end;
+  justify-content:center;
+  transform: translate(100px,-50px);
+}
+#box-5 p {
+  align-self: flex-end;
+  justify-content:center;
+  text-align: center;
+  transform: translate(120px,-50px);
+}
+#box-6 p {
+  align-self: flex-end;
+  justify-content:center;
+  transform: translate(120px,-50px);
+}
+#box-7 p {
+  align-self: flex-end;
+  justify-content:center;
+  transform: translate(120px,-50px);
+}
+.text-section {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 92.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 56px;
+  padding: 100px 0;
+  letter-spacing: -5px;
+  color: #5e5e5e;
+  font-weight: lighter;
+}
+
+.image-grid {
+  display: grid;
+  grid-column: inherit;
+  grid-column-start: 300px;
+  grid-column-end: 300px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.item2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.item3 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.texty-thing {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 62.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 40px;
+  padding: 70px 60px;
+  letter-spacing: -1px;
+  color: #5e5e5e;
+  font-weight: lighter;
+}
+
+.consulta {
+  background-color: #ffbb02;
+}
+
+.more-text {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 52.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 50px;
+  padding: 70px 60px;
+  letter-spacing: -1px;
+  color: white;
+  font-weight: lighter;
+}
+
+#white {
+  color: white;
+}
+
+.footer {
+  background-color: #f4f2f1;
+  padding: 190px 150px;
+}
