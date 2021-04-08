@@ -13,7 +13,10 @@ h1 {
 }
 
 h2 {
-
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
 }
 
 h3 {
@@ -51,7 +54,7 @@ img {
     background-color: yellow;
 }
 
-body h2 {
+.center {
     display: flex;
     justify-content: center;
 }
@@ -61,6 +64,7 @@ body h2 {
     flex-direction: row;
     justify-content: space-between;
     background-color: peachpuff;
+    padding: 40px;
 }
 
 .nav_bar div {
@@ -69,7 +73,7 @@ body h2 {
 }
 
 nav {
-    display: flex;
+    
 }
 
 nav ul {
@@ -91,12 +95,14 @@ header {
     flex-direction: column;
     justify-content: center;
     background-color: peachpuff;
+    padding: 30px 50px 300px;
 }
 
 #intro {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 header h2 {
@@ -114,14 +120,15 @@ header img {
     text-align: center;
     display: flex;
     flex-direction: row;
+    padding: 0px 30px 0px;
 }
 
 #highlights div {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 20px 50px;
-    padding: 10px;
+    margin: 0px 50px;
+    padding: 0px 10px;
     width: 300px;
     height: 500px;
     background-color: rgb(227, 227, 235);
@@ -129,6 +136,10 @@ header img {
 
 #highlights img {
     clip-path: circle(20% at 50% 50%);
+}
+
+#more_courses {
+    padding: 70px
 }
 
 /* Gallagher section 3 css*/
