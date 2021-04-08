@@ -9,11 +9,14 @@ p {
 }
 
 h1 {
-
+    font-size: 30px;
 }
 
 h2 {
-
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
 }
 
 h3 {
@@ -51,24 +54,26 @@ img {
     background-color: yellow;
 }
 
-#more_courses {
+.center {
     display: flex;
     justify-content: center;
 }
 
-
-header {
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: peachpuff;
+    padding: 40px;
 }
 
-body h2 {
+.nav_bar div {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
+    
 }
 
 nav ul {
@@ -76,26 +81,36 @@ nav ul {
     flex-direction: row;
     color: gray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 nav ul li {
     display: flex;
     justify-content: space-between;
-    margin: 5px;
-    }
+    margin: 8px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: peachpuff;
+    padding: 30px 50px 300px;
+}
 
 #intro {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center; 
+    padding: 0px 0px 70px;
 }
 
-header p {
-    font-size: 2em;
+header h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 340px;
+    width: 240px;
     height: 240px;
+    padding: 0px;
+    margin: 0px;
 }
 
 header img {
@@ -107,14 +122,15 @@ header img {
     text-align: center;
     display: flex;
     flex-direction: row;
+    padding: 0px 30px 0px;
 }
 
 #highlights div {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 20px 50px;
-    padding: 10px;
+    margin: 0px 50px;
+    padding: 0px 10px;
     width: 300px;
     height: 500px;
     background-color: rgb(227, 227, 235);
@@ -122,6 +138,10 @@ header img {
 
 #highlights img {
     clip-path: circle(20% at 50% 50%);
+}
+
+#more_courses {
+    padding: 70px
 }
 
 /* Gallagher section 3 css*/
