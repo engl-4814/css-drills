@@ -95,11 +95,17 @@ h2{
   justify-content: space-around;
 }
 
-.box {
+.card {
   background-color: rgb(233, 233, 233);
+  width: 300px;
 }
 
-.box:hover {
+.card:hover {
   background-color: rgb(125, 161, 194);
   color: white;
+}
+
+.normal {
+  text-align: center;
+  padding-top: 15px;
 }
