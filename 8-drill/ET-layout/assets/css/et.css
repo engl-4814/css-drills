@@ -26,6 +26,14 @@ div.nav {
   justify-content: space-between;
 }
 
+#button {
+  border-radius:40px;
+  color: rgba(0, 0, 0, 0.35);
+  border-color: rgba(0, 0, 0, 0.35);
+  letter-spacing:1px;
+  font-size: 12px;
+}
+
 nav > .button {
   grid-column: 5;
 }
