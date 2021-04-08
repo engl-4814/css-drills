@@ -157,24 +157,16 @@ header ul {
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 50px;
-  align-content: center;
-  border-radius: 28px;
+  margin-top: 60px;
+  border-radius: 20px;   
+  text-align: center;
+  color: #ffbb02;
   border: 1px solid #ffbb02;
-  font-size: 20px;
-  
+  padding: 20px 50px;
+  align-self: flex-start;
+  font-size: 12px;
+  font-weight: bold;
 }
-
-.yellow-button{
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  color: #ffbb02; 
-  border-radius: 40px;  
-  border: 1px solid #ffbb02;
-  padding: 5px 30px;  
-}
-
 .button p {
   border-radius: 40px;   
   text-align: center;
@@ -270,35 +262,30 @@ letter-spacing: -2px;
   color: #5e5e5e;
   font-weight: lighter;
 }
-
 .image-grid {
   display: grid;
   grid-column: inherit;
   grid-column-start: 300px;
   grid-column-end: 300px;
 }
-
 .item1 {
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
 }
-
 .item2 {
   grid-row-start: 1;
   grid-row-end: 2;
   grid-column-start: 3;
   grid-column-end: 4;
 }
-
 .item3 {
   grid-row-start: 2;
   grid-row-end: 3;
   grid-column-start: 3;
   grid-column-end: 4;
 }
-
 .texty-thing {
   margin-right: auto;
   margin-left: auto;
@@ -312,11 +299,9 @@ letter-spacing: -2px;
   color: #5e5e5e;
   font-weight: lighter;
 }
-
 .consulta {
   background-color: #ffbb02;
 }
-
 .more-text {
   margin-right: auto;
   margin-left: auto;
@@ -330,12 +315,32 @@ letter-spacing: -2px;
   color: white;
   font-weight: lighter;
 }
-
-#white {
-  color: white;
-}
-
 .footer {
   background-color: #f4f2f1;
   padding: 190px 150px;
+}
+.container {
+    text-align: center;
+    margin-top: 360px;
+}
+button {
+    border: 1px solid white;
+    background: none;
+    padding: 15px 25px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 50px;
+}
+.btn1 {
+    color: #f4f2f1;
+}
+.btn2 {
+    color: #ffbb02;
+}
+.btn1:hover {
+    color: #f4f2f1;
+}
+.btn2:hover {
+    color: #ffbb02;
 }
