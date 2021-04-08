@@ -84,3 +84,22 @@ nav > .button {
   width: 50px;
   font-size: 2.5em;
 }
+
+h2{
+  text-align: center;
+}
+
+#second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box {
+  background-color: rgb(233, 233, 233);
+}
+
+.box:hover {
+  background-color: rgb(125, 161, 194);
+  color: white;
+}
