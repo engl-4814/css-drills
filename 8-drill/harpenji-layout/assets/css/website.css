@@ -1,15 +1,15 @@
 div
 {
-    display:flex;
-    flex-direction: row;
-    align-items:center;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
 }
 
 li
 {
-    list-style-type: none;
-    display: inline;
-    align-items: stretch;
+  list-style-type: none;
+  display: inline;
+  align-items: stretch;
 }
 
 .button
