@@ -1,0 +1,142 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+header nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+header button {
+  grid-column-start: 4;
+}
+
+.block {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr 1.25fr 1fr;
+}
+
+.blockp {
+  grid-column-start: 2;
+  grid-column-end: 3
+}
+
+.blockimg {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.intros {
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+}
+
+.therapy{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 0.5rem 1rem;
+}
+
+.therapy-header{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.therapy-main-pic{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.therapy-second-pic{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.therapy-third-pic{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.statistics{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 0.5rem 1rem;
+}
+
+.statistic-header{
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.statistic-1{
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.statistic-2{
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.statistic-3{
+  grid-column-start: 4;
+  grid-column-end: 4;
+}
+
+.statistic-button{
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.wordy-words{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 0.5rem 1rem;
+}
+
+.links-and-such{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 0.5rem 1rem;
+}
+
+.acknowledgement-1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.acknowledgement-2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.acknowledgement-3{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.acknowledgement-4{
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.acknowledgement-5{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.acknowledgement-6{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.acknowledgement-1{
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
