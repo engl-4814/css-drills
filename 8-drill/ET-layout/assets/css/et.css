@@ -32,6 +32,11 @@ div.nav {
   flex-direction: row;
   list-style-type: none;
   justify-content: space-between;
+  color: gray;
+}
+
+.nav > ul > li:hover {
+  color: black;
 }
 
 #button {
