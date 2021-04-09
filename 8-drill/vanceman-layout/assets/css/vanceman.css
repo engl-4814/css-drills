@@ -102,6 +102,10 @@ figure > img {
 .data-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: .5fr 1fr .5fr;
   margin: 4em;
+}
+.number {
+  font-size:48px;
+  color:#0c6800;
 }
