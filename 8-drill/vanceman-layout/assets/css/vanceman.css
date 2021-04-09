@@ -12,11 +12,6 @@ nav li {
   margin-right: 30px;
 }
 
-section {
-  display: flex;
-  padding: 20px;
-}
-
 .mainpage > * {
   padding: 10px;
   max-height: 300px;
@@ -28,6 +23,8 @@ section {
   border-radius: 1em;
   margin: .5em;
   max-width: 100em;
+  display: flex;
+  padding: 20px;
 }
 .mainpage > p {
   align-self: center;
@@ -45,6 +42,9 @@ section {
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(2, 100px);
   padding: 2em;
+  background-color: #fae1dd;
+  border-radius: 2em;
+  margin: 1em;
 }
 .extra {
   display: flex;
@@ -76,13 +76,36 @@ section {
   grid-row-start: 2;
   grid-row-end: 3;
 }
-
+.toppings figure {
+  margin: 0em;
+}
 .toppings {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows:repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-.toppings > img {
+figure > img {
   width: 100%;
+  height: 100%
+}
+
+.data {
+  font-size:20px;
+  color:#1d3557;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4em;
+}
+
+.data-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: .5fr 1fr .5fr;
+  margin: 4em;
+}
+.number {
+  font-size:48px;
+  color:#0c6800;
 }

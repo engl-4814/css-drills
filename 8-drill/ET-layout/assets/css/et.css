@@ -35,6 +35,11 @@ div.nav {
   flex-direction: row;
   list-style-type: none;
   justify-content: space-between;
+  color: gray;
+}
+
+.nav > ul > li:hover {
+  color: black;
 }
 
 #button {
@@ -74,4 +79,39 @@ nav > .button {
   position: absolute;
     bottom: calc(25% - 8px);
     left: calc(50% - 14px);
+<<<<<<< HEAD
+=======
+  background-color: #ffbb02;
+  border-radius: 50%;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 50px;
+  font-size: 2.5em;
+}
+
+h2{
+  text-align: center;
+}
+
+#second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: rgb(233, 233, 233);
+  width: 300px;
+}
+
+.card:hover {
+  background-color: rgb(125, 161, 194);
+  color: white;
+}
+
+.normal {
+  text-align: center;
+  padding-top: 15px;
+>>>>>>> f1031183ff57a1e74a60a77058670340b3e09aa8
 }

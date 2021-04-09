@@ -17,6 +17,27 @@ li
 justify-content: flex-end;
  }
 
+ 
  .second
  {display: flex;
 justify-content: space-around;}
+
+
+.third {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+margin: auto;
+}
+
+div.main
+{
+  align-content: center;
+}
