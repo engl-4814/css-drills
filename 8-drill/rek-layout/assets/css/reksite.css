@@ -1,70 +1,116 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
 header {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
+  background-color: #FFCFA4;
+}
+
+header h1 {
+  font-family:'Times New Roman', Times, serif;
 }
 
 header nav ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  list-style-type: none;
+  color: #a1a1a1;
+  font-size: 1.25rem;
 }
 
 header button {
   grid-column-start: 4;
+  border-radius: 40px;
+  background-color: transparent;
+  border: 1px solid #a1a1a1;
+  color: #a1a1a1;
 }
 
 .block {
   display: grid;
   grid-template-columns: 1fr 1.25fr 1.25fr 1fr;
+  grid-template-rows: 400px;
+  background-color: #FFCFA4;
 }
 
 .blockp {
   grid-column-start: 2;
-  grid-column-end: 3
+  grid-column-end: 3;
+  text-align: center;
+  align-self: center;
+  font-size: 1.75rem;
+  padding: 20px;
 }
 
 .blockimg {
   grid-column-start: 3;
   grid-column-end: 4;
+  align-self: center;
 }
 
 .intros {
   display: grid;
   grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
   column-gap: 30px;
+  row-gap: 20px;
 }
 
 .boxhead {
   grid-column-start: 1;
   grid-column-end: 6;
   margin: auto;
+  font-size: 1.5rem;
 }
 
 .box1 {
   grid-column-start: 2;
   grid-column-end: 3;
-  background-color: #fadcdc4f;
+  background-color: #f0f0f0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 400px;
+  justify-content: space-between;
 }
 
 .box2 {
   grid-column-start: 3;
   grid-column-end: 4;
-  background-color: #fadcdc4f;
+  background-color: #f0f0f0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 .box3 {
   grid-column-start: 4;
   grid-column-end: 5;
-  background-color: #fadcdc4f;
+  background-color: #f0f0f0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+}
+
+div h3 {
+  color: #a3c5db;
+}
+
+div.box1 p {
+  padding: 30px;
+}
+
+div.box2 p {
+  padding: 30px;
+}
+
+div.box3 p {
+  padding: 30px;
 }
 
 div.box1 img {
@@ -79,9 +125,32 @@ div.box3 img {
   border-radius: 50%;
 }
 
+.bottombutton {
+  display: flex;
+  align-content: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-content: center;
+  padding: 50px;
+  padding-bottom: 90px;
+}
+
+div.bottombutton button {
+  border-radius: 40px;
+  background-color: transparent;
+  border: 1px solid #a3c5db;
+  padding: 15px 30px;
+  color: #a3c5db;
+}
+
 .yellow {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  row-gap: 5px;
+  column-gap: 5px;
+  background-color: #cca53240;
 }
 
 .big {
@@ -89,6 +158,42 @@ div.box3 img {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2.5fr 1fr;
+}
+
+div.grid p {
+  font-size: 2rem;
+  padding: 20px;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+div.grid button {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  color: rgb(255, 196, 0);
+  border-radius: 40px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 196, 0);
+  padding: 10px 0px;
+}
+
+div.grid img {
+  grid-row-start: 3;
+  grid-column-start: 4;
+  width: 100%;
+}
+
+div.yellowback {
+  background-color: rgb(255, 196, 0);
+  color: white;
+  font-size: 1.25rem;
+  text-align: center;
+  padding-top: 70px;
 }
 
 .therapy{
