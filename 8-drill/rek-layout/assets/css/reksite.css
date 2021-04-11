@@ -30,7 +30,65 @@ header button {
 
 .intros {
   display: grid;
-  grid-template-columns: repeat (3, 1fr);
+  grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+  column-gap: 30px;
+}
+
+.boxhead {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  margin: auto;
+}
+
+.box1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: #fadcdc4f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background-color: #fadcdc4f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box3 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  background-color: #fadcdc4f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.box1 img {
+  border-radius: 50%;
+}
+
+div.box2 img {
+  border-radius: 50%;
+}
+
+div.box3 img {
+  border-radius: 50%;
+}
+
+.yellow {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.big {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 .therapy{
