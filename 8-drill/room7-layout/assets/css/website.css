@@ -1,3 +1,5 @@
+/* Kaitlyn */
+
 header {
     position:relative;
     display:block;
@@ -58,3 +60,69 @@ nav {
       background: #ffd97d;
     }
   }
+
+/* Tyler */
+
+#Tyler {
+  background: white;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-rows: repeat(2, 400px);
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.left-side {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background: #fffced;
+}
+
+.yellow-box-top-left {
+  background: #ffbf00;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.yellow-box-top-middle {
+  background: #ffbf00;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.yellow-box-top-right {
+  background: #ffbf00;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.yellow-box-bottom-left {
+  background: #ffbf00;
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+}
+
+.yellow-box-bottom-middle {
+  background: #ffbf00;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+}
+
+.yellow-box-bottom-right {
+  background: #ffbf00;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+}
+
+.nucleus {
+  background: white;
+}
+
+.yellow {
+  background: #ffbf00;
+}
