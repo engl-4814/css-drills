@@ -63,6 +63,23 @@ nav {
 
 /* Tyler */
 
+h1 {
+  font-size: 50px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+h2 {
+  font-size: 32px;
+  color: black;
+  padding-top: 100px;
+}
+
+h3 {
+  color: white;
+  padding-bottom: 30px;
+}
+
 #Tyler {
   background: white;
 }
@@ -74,55 +91,133 @@ nav {
 }
 
 .left-side {
+  display: flex;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
   background: #fffced;
+  align-content: center;
 }
 
 .yellow-box-top-left {
-  background: #ffbf00;
+  display: flex;
+  background-color: #ffbf00;
   border-right: 2px solid white;
   border-bottom: 2px solid white;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .yellow-box-top-middle {
+  display: flex;
   background: #ffbf00;
   border-left: 2px solid white;
   border-right: 2px solid white;
   border-bottom: 2px solid white;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .yellow-box-top-right {
+  display: flex;
   background: #ffbf00;
   border-left: 2px solid white;
   border-bottom: 2px solid white;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .yellow-box-bottom-left {
+  display: flex;
   background: #ffbf00;
   border-right: 2px solid white;
   border-top: 2px solid white;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .yellow-box-bottom-middle {
+  display: flex;
   background: #ffbf00;
   border-left: 2px solid white;
   border-right: 2px solid white;
   border-top: 2px solid white;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .yellow-box-bottom-right {
+  display: flex;
   background: #ffbf00;
   border-left: 2px solid white;
   border-top: 2px solid white;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .nucleus {
+  display: flex;
   background: white;
+  padding: 100px 0px 100px 0px;
+  justify-content: center;
 }
 
 .yellow {
+  display: flex;
+  justify-content: center;
   background: #ffbf00;
+  padding: 100px 0px 100px 0px;
+}
+
+p.white-text {
+  color: white;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-rows: repeat(2, 350px);
+  grid-template-columns: repeat(2, 1fr)
+}
+
+.pic-left {
+  display: flex;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border: 2px solid black;
+}
+
+.pic {
+  display: flex;
+  border: 2px solid black;
+}
+
+.flex-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p.yellow-text-small {
+  font-size: 20px;
+  color: #ffbf00;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+p.yellow-text-big {
+  font-size: 100px;
+  color: #ffbf00;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+p.gray-text {
+  font-size: 12px;
+  color: gray;
+}
+
+.yellow-button {
+  padding: 20px 30px 20px 30px;
+  border: 1px solid #ffbf00;
+  border-radius: 30px;
 }
