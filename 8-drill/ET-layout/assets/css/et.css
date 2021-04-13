@@ -1,5 +1,6 @@
 html{
   font-family: 'Helvetica', 'sans-serif';
+  font-weight: lighter;
   width: 100%;
   height: 100%;
 }
@@ -72,26 +73,27 @@ nav > .button {
   grid-column: 3;
   padding-top: 150px;
   padding-bottom: 150px;
-  padding-right: 150px;
+  padding-right: 300px;
 }
 
-.continue {
+#continue {
   position: absolute;
     bottom: calc(25% - 8px);
     left: calc(50% - 14px);
-<<<<<<< HEAD
-=======
   background-color: #ffbb02;
   border-radius: 50%;
   color: white;
   border: none;
   height: 50px;
   width: 50px;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 h2{
   text-align: center;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  font-size: 3em;
 }
 
 #second {
@@ -113,5 +115,32 @@ h2{
 .normal {
   text-align: center;
   padding-top: 15px;
->>>>>>> f1031183ff57a1e74a60a77058670340b3e09aa8
+}
+
+.card > h1 {
+  font-size: .8em;
+  color: lightsteelblue;
+  text-align: center;
+}
+
+.card > h2 {
+  font-size: .8em;
+  color: lightslategrey;
+  text-align: center;
+}
+
+.card > p {
+  font-size: 2em;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.card > img {
+  height: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  align-items: flex-end;
+  display: flex;
 }
