@@ -83,6 +83,18 @@ header {
     }
   }
 
+  div.flex-container {
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 100px;
+    margin: 30px;
+    text-size: 100;
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
 /* Tyler */
 
 h1 {
