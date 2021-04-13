@@ -50,6 +50,42 @@ nav li {
   border-radius: 2em;
   margin: 1em;
 }
+.march {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.april {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.may {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.march-flavors {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: 2em;
+}
+.april-flavors {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: 3em;
+}
+.may-flavors {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-left: 3em;
+}
 .extra {
   display: flex;
   align-items: center;
@@ -66,6 +102,7 @@ nav li {
   background-color: #fae1dd;
   margin-top: 1.5em;
   border-radius: .5em;
+  padding: 1em;
 }
 .waffle-cones {
   max-width: 70%;
@@ -108,6 +145,7 @@ figure > img {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: .5fr 1fr .5fr;
   margin: 4em;
+  margin-left: 8em;
 }
 .number {
   font-size:48px;
@@ -147,4 +185,5 @@ footer {
 }
 footer > * {
   margin: 4em;
+  margin-left: 7.5em;
 }
