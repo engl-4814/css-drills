@@ -101,6 +101,8 @@ h2{
 .card {
   background-color: rgb(233, 233, 233);
   width: 300px;
+  font-family: "Helvetica";
+  font-weight: lighter;
 }
 
 .card:hover {
@@ -111,4 +113,22 @@ h2{
 .normal {
   text-align: center;
   padding-top: 15px;
+}
+
+.card > h1 {
+  font-size: .8em;
+  color: lightsteelblue;
+  text-align: center;
+}
+
+.card > h2 {
+  font-size: .8em;
+  color: lightslategrey;
+  text-align: center;
+}
+
+.card > p {
+  font-size: 2em;
+  padding-left: 40px;
+  padding-right: 40px;
 }
