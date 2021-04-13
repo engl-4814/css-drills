@@ -87,3 +87,28 @@ nav > .button {
   height: 50px;
   width: 50px;
 }
+
+h2{
+  text-align: center;
+}
+
+#second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: rgb(233, 233, 233);
+  width: 300px;
+}
+
+.card:hover {
+  background-color: rgb(125, 161, 194);
+  color: white;
+}
+
+.normal {
+  text-align: center;
+  padding-top: 15px;
+}
