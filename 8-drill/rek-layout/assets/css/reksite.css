@@ -54,110 +54,7 @@ header button {
 
 .intros {
   display: grid;
-  grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
-  column-gap: 30px;
-  row-gap: 20px;
-}
-
-.boxhead {
-  grid-column-start: 1;
-  grid-column-end: 6;
-  margin: auto;
-  font-size: 1.5rem;
-}
-
-.box1 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  background-color: #f0f0f0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 400px;
-  justify-content: space-between;
-}
-
-.box2 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  background-color: #f0f0f0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.box3 {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  background-color: #f0f0f0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-div h3 {
-  color: #a3c5db;
-}
-
-div.box1 p {
-  padding: 30px;
-}
-
-div.box2 p {
-  padding: 30px;
-}
-
-div.box3 p {
-  padding: 30px;
-}
-
-div.box1 img {
-  border-radius: 50%;
-}
-
-div.box2 img {
-  border-radius: 50%;
-}
-
-div.box3 img {
-  border-radius: 50%;
-}
-
-.bottombutton {
-  display: flex;
-  align-content: center;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  justify-content: center;
-  padding: 50px;
-  padding-bottom: 90px;
-}
-
-div.bottombutton button {
-  border-radius: 40px;
-  background-color: transparent;
-  border: 1px solid #a3c5db;
-  padding: 15px 30px;
-  color: #a3c5db;
-}
-
-.yellow {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  row-gap: 5px;
-  column-gap: 5px;
-  background-color: #cca53240;
-}
-
-.big {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-template-columns: repeat (3, 1fr);
 }
 
 .grid {
@@ -200,7 +97,6 @@ div.yellowback {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
-  grid-gap: 0.5rem 1rem;
 }
 
 .therapy-header{
@@ -211,16 +107,22 @@ div.yellowback {
 .therapy-main-pic{
   grid-column-start: 1;
   grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .therapy-second-pic{
   grid-column-start: 3;
   grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
 }
 
 .therapy-third-pic{
   grid-column-start: 3;
   grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
 
 .statistics{
@@ -231,8 +133,8 @@ div.yellowback {
 }
 
 .statistic-header{
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 3;
 }
 
 .statistic-1{
@@ -253,6 +155,23 @@ div.yellowback {
 .statistic-button{
   grid-column-start: 3;
   grid-column-end: 3;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.stat-head{
+  font-size: 12px;
+  color: rgb(255, 196, 0);
+}
+
+.stat-num{
+  font-size: 48px;
+  color: rgb(255, 196, 0);
+}
+
+.stat-end{
+  font-size: 12px;
+  color: gray;
 }
 
 .wordy-words{
@@ -260,6 +179,13 @@ div.yellowback {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 0.5rem 1rem;
+  background-color: rgb(255, 196, 0);
+  text-align: center;
+}
+
+.learn-more{
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 .links-and-such{
@@ -267,6 +193,7 @@ div.yellowback {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 0.5rem 1rem;
+  text-align: center;
 }
 
 .acknowledgement-1{
@@ -299,7 +226,7 @@ div.yellowback {
   grid-column-end: 4;
 }
 
-.acknowledgement-1{
+.acknowledgement-7{
   grid-column-start: 4;
   grid-column-end: 5;
 }
