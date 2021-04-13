@@ -85,7 +85,7 @@ header {
 
   div.flex-container {
     background-color: #f1f1f1;
-    width: 300px;
+    width: 500px;
     height: 100px;
     margin: 30px;
     text-size: 100;
@@ -93,6 +93,10 @@ header {
     line-height: 50px;
     display: flex;
     flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
   }
 
 /* Tyler */
