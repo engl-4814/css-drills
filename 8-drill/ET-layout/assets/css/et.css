@@ -1,20 +1,54 @@
+html{
+  font-family: 'Helvetica', 'sans-serif';
+  font-weight: lighter;
+  width: 100%;
+  height: 100%;
+}
 header {
   background-color:bisque;
-  font-family: helvetica;
+}
+.logo{
+  font-size: 25px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: baseline;
 }
 
 nav {
   display: grid;
   grid-template-columns: 1fr, 3fr, 1fr;
+  padding-top: 30px;
 }
 
 nav > .logo {
   grid-column: 1;
+  padding-left: 45px;
 }
 
 div.nav {
   grid-column-start: 2;
   grid-column-end: 4;
+}
+
+.nav > ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  color: gray;
+}
+
+.nav > ul > li:hover {
+  color: black;
+}
+
+#button {
+  border-radius:40px;
+  color: rgba(0, 0, 0, 0.35);
+  border-color: rgba(0, 0, 0, 0.35);
+  letter-spacing:1px;
+  font-size: 12px;
 }
 
 nav > .button {
@@ -39,5 +73,74 @@ nav > .button {
   grid-column: 3;
   padding-top: 150px;
   padding-bottom: 150px;
-  padding-right: 150px;
+  padding-right: 300px;
+}
+
+#continue {
+  position: absolute;
+    bottom: calc(25% - 8px);
+    left: calc(50% - 14px);
+  background-color: #ffbb02;
+  border-radius: 50%;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 50px;
+  font-size: 2em;
+}
+
+h2{
+  text-align: center;
+  font-family: "Helvetica";
+  font-weight: lighter;
+  font-size: 3em;
+}
+
+#second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: rgb(233, 233, 233);
+  width: 300px;
+}
+
+.card:hover {
+  background-color: rgb(125, 161, 194);
+  color: white;
+}
+
+.normal {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.card > h1 {
+  font-size: .8em;
+  color: lightsteelblue;
+  text-align: center;
+}
+
+.card > h2 {
+  font-size: .8em;
+  color: lightslategrey;
+  text-align: center;
+}
+
+.card > p {
+  font-size: 2em;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.card > img {
+  height: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  align-items: flex-end;
+  display: flex;
 }
