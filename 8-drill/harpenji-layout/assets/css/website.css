@@ -146,3 +146,74 @@ div.orange {
   padding-top: 70px;
 }
   
+div.text {
+text-align: center;
+font-size: 2rem;
+padding: 100px;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+div.left img{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+  }
+
+div.right img{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width: 100%
+
+}
+
+div.text2 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 100px;
+}
+
+div.wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+    margin: auto;
+    font-size: 3rem;
+   color: orange;
+}
+
+div.wrapper2 button {
+grid-row-start: 2;
+grid-column-start: 2;
+color: rgb(255, 196, 0);
+border-radius: 40px;
+background-color: transparent;
+border: 1px solid rgb(255, 196, 0);
+padding: 10px 0px;
+}
+
+div.text3{
+  text-align: center;
+  font-size: 2rem;
+  padding: 100px;
+  background-color: orange;
+  color: white
+}
+
+div.text3 button {
+  grid-row-start: 2;
+grid-column-start: 2;
+color: rgb(255, 196, 0);
+border-radius: 40px;
+background-color: transparent;
+border: 1px solid rgb(255, 196, 0);
+padding: 10px 0px;
+}
+}
