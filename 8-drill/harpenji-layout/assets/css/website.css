@@ -208,12 +208,9 @@ div.text3{
 }
 
 div.text3 button {
-  grid-row-start: 2;
-grid-column-start: 2;
 color: rgb(255, 196, 0);
 border-radius: 40px;
 background-color: transparent;
 border: 1px solid rgb(255, 196, 0);
-padding: 10px 0px;
-}
+padding: 10px 50px;
 }
