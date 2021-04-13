@@ -1,55 +1,51 @@
 
 .header-container{
-    display: flex;
+    display:flex;
     flex-direction: row;
     flex-wrap: row wrap;
-    margin-right: 3em;
-    margin-left: -1px;  
+    margin-right: auto;
+    margin-left: auto;  
     width: 100%;
     background-color: rgb(233, 172, 119);
 }
-header h2 {
-    padding-top: 20px;
+ header h2 {
+    padding-top: 30px;
     padding-bottom: 0px;
     display: inline-block;
-    margin-left: 50px;
-    margin-top: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
     font-weight: bolder;
     font-style:italic;
-    font-size: 32px;
-    font-family: 'Serif';
+    font-size: 36px;
+    font-family: 'Helvetica';
     background-color: rgb(233, 172, 119);
 }
 .navigation-bar,ul,li {
-    padding: 10px;
+    padding: 1%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-evenly;
     background-color: rgb(233, 172, 119);
 }
-header ul {
-    list-style: none;  
-    background-color: rgb(233, 172, 119);
-}.nav-elements > li { 
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    font-size: 20px;
+
+.nav-elements > li { 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 25px;
     font-weight:normal;
     color: rgba(7, 7, 7, 0.35);
 }
 #button {
+    margin-left:auto;
+    border: 1px solid #dbd6d6;
     position: absolute;
     top: 30px;
     right: 30px;
-    margin-left:auto;
-    border: 1px solid #bebeba;
-    padding: 20px 30px;
-    border-radius:40px;
+    padding: 20px 20px;
+    border-radius:50px;
     color: rgba(7, 7, 7, 0.35);
     border-color: rgba(7, 7, 7, 0.35);
-    letter-spacing:1px;
-    font-size: 12px;
+    letter-spacing:2px;
+    font-size: 10px;
     z-index: 3;
     background-color: rgb(255, 255, 255);
 
@@ -58,7 +54,7 @@ header ul {
 .main-container {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1.25fr 1.25fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 400px;
     background-color: rgb(233, 172, 119);
 }
@@ -127,12 +123,12 @@ header ul {
 
 .button-course {
     width: 100px;
+    border: 1px solid #f7f3f2;
+    padding: 20px 30px;
+    border-radius:40px;
     margin-left:auto;
     margin-right: auto;
     margin-top: 100px;
-    border: 1px solid #bebeba;
-    padding: 20px 30px;
-    border-radius:40px;
     color: rgba(7, 7, 7, 0.35);
     border-color: rgba(7, 7, 7, 0.35);
     letter-spacing:1px;
@@ -140,4 +136,5 @@ header ul {
     z-index: 3;
     background-color: rgb(255, 255, 255);
     text-align: center;
+
 }
