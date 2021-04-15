@@ -1,0 +1,147 @@
+@import "https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700";
+
+/* CSS Grid layout */
+.grid-header {
+  grid-area: header;
+}
+.grid-footer {
+  grid-area: footer;
+}
+.grid-main {
+  grid-area: main;
+}
+.grid-left {
+  grid-area: navigation;
+}
+.grid-right {
+  grid-area: ads;
+}
+
+/* Mobile-First Ruleset */
+.grid {
+  display: grid;
+  grid-template-areas: 
+    "header" 
+    "navigation" 
+    "main" 
+    "ads" 
+    "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: 80px auto 1fr auto auto;
+  /* 
+  * For the footer, in case there's not 
+  * enough content on the page
+  */
+  min-height: 100vh;
+}
+
+/* 
+* Responsive grid styles based on a 
+* breakpoint b/t mobile screens and 
+* larger screens 
+*/
+@media screen and (min-width: 600px) {
+  .grid {
+    grid-template-areas: 
+      "header header header" 
+      "navigation main ads" 
+      "footer footer footer";
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 80px 1fr 30px;
+  }
+}
+
+/* Theme Typography Scheme */
+.theme {
+  font-family: "Space Mono", "Rubik", "Kanit", monospace;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.theme .t-title {
+  font-size: 2.168rem;
+  color: whitesmoke;
+  margin: 0;
+}
+.theme .t-heading {
+  font-size: 1.618rem;
+  margin: 0;
+}
+.theme .t-subheading {
+  font-size: 1.2rem;
+}
+.theme .t-nav-heading {
+  font-size: 1rem;
+  line-height: 1.618;
+  margin-top: 1.618rem;
+  margin-bottom: 1rem;
+}
+
+/* Theme Box & Spacing Scheme */
+.t-header {
+  box-sizing: border-box;
+  background-color: tomato;
+  border-bottom: 1px solid #e02200;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 1rem 2rem;
+}
+
+.t-main {
+  background-color: whitesmoke;
+  padding: 1rem 2rem 1rem 2rem;
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+}
+/* 
+* Query breakpoint needed here, 
+* due to the cascade.
+*/
+@media (min-width: 600px) {
+  .t-main {
+    padding: 2rem 2rem 1rem 4rem;
+  }
+}
+.t-main-content {
+  max-width: 60em;
+  margin: auto;
+}
+
+.t-left,
+.t-right {
+  padding: 1rem 2rem;
+}
+/* 
+* Query breakpoint needed here, 
+* due to the cascade.
+*/
+@media (min-width: 600px) {
+  .t-left,
+  .t-right {
+    padding: 1rem 1rem;
+  }
+}
+.t-left {
+  background-color: #e8e8e8;
+}
+.t-right {
+  background-color: #e8e8e8;
+}
+
+.t-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -webkit-margin: 0;
+}
+.t-nav .t-nav-link {
+  line-height: 1.68;
+}
+
+.t-ad img {
+  width: 100%;
+}
+
+.t-footer {
+  background: white;
+  padding: 1rem 2rem;
+  border-top: 1px solid #d0d0d0;
+}
