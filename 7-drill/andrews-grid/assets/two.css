@@ -1,0 +1,29 @@
+div.text2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 100px;
+    background-color:orange;
+    color:black;
+  }
+  
+  div.wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+    margin: auto;
+    font-size: 3rem;
+    color: pink;
+    background-color: black;
+  }
+  
+  
+  div.text3{
+    text-align: center;
+    font-size: 2rem;
+    padding: 100px;
+    background-color:pink;
+    color: black
+  }
+  
+ 
